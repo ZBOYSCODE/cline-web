@@ -96,3 +96,10 @@ $di->setShared('session', function () {
 
     return $session;
 });
+
+/**
+ * Loading routes from the routes.php file
+ */
+$di->set('router', function () {
+    return require __DIR__ . '/routes.php';
+});
