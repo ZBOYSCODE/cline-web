@@ -1,7 +1,19 @@
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+.app-logo{
+	width: 160px;
+	height: 40px;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+
 .app-navbar{
 	border-radius: 0px;
     padding-bottom: 5px; 
-    background-color: #000033; 
+    background-color: #000033 !important; 
 }
 .app-nav>li>a{
 	color:#ffffff;	
@@ -14,7 +26,13 @@
 }
 
 .app-layout{
-	padding-top: 80px !important;
+	width: 100%;
+}
+
+.app-header{
+	height: 60%;
+	background-color: #000033; 
+	color:white;
 }
 
 .app-footer{

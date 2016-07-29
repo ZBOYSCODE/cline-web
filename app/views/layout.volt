@@ -1,4 +1,5 @@
-<!doctype html>    
+<!doctype html>  
+
     <head>
         <meta charset="utf-8">
         {{ stylesheet_link('css/bootstrap.min.css') }}
@@ -11,13 +12,13 @@
         <meta name="author" content="Hernán Feliú">
     </head>
     <body>
-       
+         <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
         {{ partial("theme_base/nav") }}
         
-        <section class="container app-layout">
-
-            {% block content %}{% endblock %}
-
+        <section class="container-fluid app-layout">
+                 {% block content %}{% endblock %}
         </section>
 
         {{ partial("theme_base/footer") }}
