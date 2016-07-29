@@ -1,6 +1,4 @@
 <header>
-
-
     <nav class="navbar navbar-inverse app-navbar navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -13,16 +11,14 @@
             </div>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="nav navbar-nav navbar-right app-nav">
-                    <li><i class="fa fa-home"></i><a href="<?php echo $this->url->get("");?>">Inicio</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contacto</a></li>                           
+                    <li><a href="<?php echo $this->url->get("");?>">INICIO</a></li>
+                    <li><a href="<?php echo $this->url->get("quienes-somos");?>">QUIENES SOMOS</a></li>
+                    <li><a href="<?php echo $this->url->get("alianzas");?>">ALIANZAS</a></li>
+                    <li><a href="<?php echo $this->url->get("evaluador-online");?>">EVALUADOR ONLINE</a></li>
+                    <li><a href="<?php echo $this->url->get("registrate");?>">REGISTRATE</a></li>
+                    <li><a href="<?php echo $this->url->get("trabaja-con-nosotros");?>">TRABAJA CON NOSOTROS</a></li>                           
                 </ul>
             </div>                   
         </div>
     </nav>
-
-    
 </header>
-
-    

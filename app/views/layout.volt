@@ -22,7 +22,7 @@
         {{ partial("theme_base/header") }}
         
         <section class="container-fluid app-layout">
-                 {% block content %}{% endblock %}
+            {% block content %}{% endblock %}
         </section>
 
         {{ partial("theme_base/footer") }}

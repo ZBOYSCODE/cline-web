@@ -17,6 +17,21 @@
 	    'action' => 'quienessomos'
 	));
 
+	$router->add('/alianzas', array(
+	    'controller' => 'index',
+	    'action' => 'alianzas'
+	));
+
+	$router->add('/evaluador-online', array(
+	    'controller' => 'index',
+	    'action' => 'evaluador'
+	));
+
+	$router->add('/proceso-evaluacion', array(
+	    'controller' => 'index',
+	    'action' => 'proceso'
+	));
+
 	$router->add('/registrate', array(
 	    'controller' => 'index',
 	    'action' => 'registrate'
@@ -27,9 +42,6 @@
 	    'action' => 'trabaja'
 	));
 
-	$router->add('/contactanos', array(
-	    'controller' => 'index',
-	    'action' => 'contacto'
-	));
+
 
 	return $router;
