@@ -9,7 +9,7 @@
         
         {{ stylesheet_link('css/bootstrap.min.css') }}
         {{ stylesheet_link('css/bootstrap-theme.min.css') }}
-        {{ stylesheet_link('css/font-awesome.min.css') }}
+        {{ stylesheet_link('css/font-awesome.css') }}
         {{ stylesheet_link('css/main.css') }}
 
         
