@@ -1,0 +1,29 @@
+.app-navbar{
+	border-radius: 0px;
+    padding-bottom: 5px; 
+    background-color: #000033; 
+}
+.app-nav>li>a{
+	color:#ffffff;	
+	font-weight: bold; 
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+.app-nav>li>a:focus{
+	background-color: white; 
+}
+
+.app-layout{
+	padding-top: 80px !important;
+}
+
+.app-footer{
+	height: 50px;
+	background-color: #000033;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 18px;
+	font-weight: bold;
+	font-size: 12px;
+}
