@@ -36,7 +36,7 @@ html, body{
 }
 .app-submenu-home{
 	text-align: center;
-	padding-top: 18px;
+	padding-top: 12px;
 	font-size: 10px;
 	margin:0 auto;
 }
@@ -69,6 +69,49 @@ html, body{
 	height: 60%;
 }
 
+.app-titulo-home-left{
+	font-family: "Angsana New", "Times New Roman", Georgia;
+	color: #ffcc99;
+	text-align: left;
+	margin-left: 40px;
+	width: 80%;
+	font-size: 2.5em;
+}
+
+.app-titulo-home-right{
+	font-family: "Angsana New", "Times New Roman", Georgia;
+	color: #ffcc99;
+	text-align: right;
+	margin-right: 40px;
+	margin-top: 40px;
+	width: 80%;
+	font-size: 2.5em;
+}
+.app-home-justify{
+	text-align: justify;
+	color: #ffcc99;
+	font-size: 14px;
+	margin-left: 40px;
+	width: 80%;
+}
+.app-home-info{
+	text-align: center;
+	background-color: #ffe6cc;
+}
+.app-home-info p{
+	font-family: "Angsana New", "Times New Roman", Georgia;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #666666;
+	margin-top: 10px;
+}
+.app-home-info p a{
+	text-decoration: none;
+	color: #1b344b;
+}
+.app-home-info p a:hover{
+	color: #666666;
+}
 .app-content{
 	padding: 20px;
 	padding-top: 30px;
@@ -168,6 +211,11 @@ html, body{
 
 .app-background-content{
 	background-color: #000033;
+	min-height: 300px;
+}
+
+.app-background-home{
+   background: url("../img/home/home.png") no-repeat center fixed;
 }
 .container-fluid{
 	padding-left: 0 !important;
