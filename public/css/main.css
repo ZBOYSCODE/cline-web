@@ -62,7 +62,11 @@ html, body{
 }
 .app-layout{
 	width: 100%;
-	padding-top: 55px; 
+	padding-top: 55px; 	
+}
+.app-layout .row{
+	margin-right: 0;
+	margin-left: 0;
 }
 
 .app-header{
