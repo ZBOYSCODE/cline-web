@@ -1,4 +1,11 @@
-<div class="row">
+
+{% extends "layout.volt" %}
+
+{% block content %}
+
+	{{ partial("theme_base/sub-nav") }}
+	 
+    <div class="row">
 	<div class="col-md-4">
 		<nav>
 			<ul>
@@ -28,7 +35,10 @@
 			<div class="col-md-3">foto</div>
 			<div class="col-md-3">foto</div>
 		</div>
-	</div>
-
-	
+	</div>	
 </div>
+	
+{% endblock %}
+
+
+{% block scripts %}{% endblock %}

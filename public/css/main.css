@@ -77,6 +77,7 @@ html, body{
 .app-edu-justify{
    text-align: justify;
    color: #ffcc99;
+   font-size: 12px;
 }
 
 .app-sidebar{
@@ -116,16 +117,25 @@ html, body{
 	width: 95%;
 }
 .app-edu-matricula{
-	width: 80%;
-	height: 200px;
+	width: 95%;
 	background-color: #4d4dff;
 	color: white;
+	vertical-align: center;
+	padding: 60px 30px;
+	margin-top: 50px;
+	border-radius: 3px;
 }
+
+.app-edu-matricula:hover{
+	background-color: #323232;	
+}
+
 .app-edu-matricula a{
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
 	text-transform: uppercase;
+	vertical-align: center;
 }
 .app-edu-cursos{
 	margin: 0 auto;

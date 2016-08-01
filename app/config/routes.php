@@ -41,7 +41,20 @@
 	    'controller' => 'index',
 	    'action' => 'trabaja'
 	));
+    
+    $router->add('/asesoriaFinanciera', array(
+	    'controller' => 'index',
+	    'action' => 'asesoriaFinanciera'
+	));
 
+	$router->add('/educacionFinanciera', array(
+	    'controller' => 'index',
+	    'action' => 'educacionFinanciera'
+	));
 
+	$router->add('/inversiones', array(
+	    'controller' => 'index',
+	    'action' => 'inversiones'
+	));
 
 	return $router;
