@@ -30,11 +30,13 @@
                    
                
             </div>
-			
+					
             		<div class="col-xs-12 col-sm-4 app-content text-padding">
-              				<p class="app-edu-justify" style="font-size: xx-large">¿SOY SUJETO DE CREDITO?</p>
-              				<p class="app-edu-justify" style="font-size: large" >  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;... SUJETO DE CONFIANZA?</p>
-              				<img src="<?php echo $this->url->get("").'img/asesoria/barra.png'; ?>" class="img-responsive" alt="">
+              				<h1 class="app-titulo-home-right pull-right">¿SOY SUJETO DE CRÉDITO? …¿SUJETO DE CONFIANZA ?
+							</h1>
+
+							
+              				<img  src="<?php echo $this->url->get("").'img/asesoria/barra.png'; ?>" class="img-responsive" style="padding-top: 28px;" alt="">
 
 
 
@@ -60,19 +62,21 @@
 
      	</div>	
      	<div class="row">
-     		 <div class="col-xs-12 col-sm-6 app-content">
+     		 <div class="col-xs-12 col-sm-4 app-content">
 
-              <img src="<?php echo $this->url->get("").'img/asesoria/grafico.png'; ?>" class="img-responsive" alt="">
-
-                   
-               
+              	<img src="<?php echo $this->url->get("").'img/asesoria/ss_1.png'; ?>" class="img-responsive" alt="">
+               	<p class="pie-de-foto"> <small>Benchmark de Empresas</small> </p>
             </div>
-             <div class="col-xs-12 col-sm-6 app-content">
 
-              <img src="<?php echo $this->url->get("").'img/asesoria/grafico2.png'; ?>" class="img-responsive" alt="">
+             <div class="col-xs-12 col-sm-4 app-content">
 
-                   
-               
+              <img src="<?php echo $this->url->get("").'img/asesoria/ss_2.png'; ?>" class="img-responsive" alt="">
+				 <p class="pie-de-foto"> <small>Decodificador</small> </p>
+             </div>
+             <div class="col-xs-12 col-sm-4 app-content">
+
+             	<img src="<?php echo $this->url->get("").'img/asesoria/ss_3.png'; ?>" class="img-responsive" alt="">
+				  <p class="pie-de-foto"> <small>Proyección de Resultados</small> </p>
             </div>
 
      	</div> 

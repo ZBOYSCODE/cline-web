@@ -8,7 +8,7 @@
 		<div class="col-xs-12 col-sm-4 app-content">
 		</div>
 		<div class="col-xs-12 col-sm-4 app-content">
-		   <h1 class="app-titulo-home-right pull-right">¿SOY SUJETO DE CRÉDITO ?…¿SUJETO DE CONFIANZA ?
+		   <h1 class="app-titulo-home-right pull-right">¿SOY SUJETO DE CRÉDITO? …¿SUJETO DE CONFIANZA ?
 </h1>
 		</div>
 	</div>
