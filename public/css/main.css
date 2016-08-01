@@ -6,75 +6,147 @@ html, body{
 .app-logo{
 	width: 180px;
 	height: 50px;
-	margin-top: 12px;
 	margin-left: 10px;
+	padding: 3px;
 }
 
 .app-navbar{
-	border-radius: 0px;
-    padding-bottom: 5px; 
+	border-radius: 0px; 
     background-color: #1b344b !important; 
+    width: 100%;
 }
 .app-nav>li>a{
-	color:#ffffff;	
-	font-weight: bold; 
+	color:#ffffff;	 
 	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
 	text-transform: uppercase;
+}
+.app-login{
+	font-size: 8px;
 }
 .app-nav >li >a >i{
 	color: white;
 	font-weight: bold; 
-	padding-top: 20px;
 }
-.app-nav>li>a:focus{
-	background-color: white; 
+.app-nav>li>a:hover{
+	background-color: #ffcc99;
+	color: #1b344b;
+	font-weight: bold;
 }
-
+.app-submenu-home{
+	text-align: center;
+	padding-top: 18px;
+	font-size: 10px;
+	margin:0 auto;
+}
+.app-submenu-home ul{
+	width: 80%;
+	margin-left: 30px;
+}
+.app-submenu-home li{
+	background-color: #1b344b;
+	padding: 8px;
+	color: white;
+	text-align: center;
+	margin-left: 7px;
+	width: 32%;
+}
+.app-submenu-home li:hover{
+	background-color: #b32d00;
+}
+.app-submenu-home li a{
+	text-decoration: none;
+	color: white;	
+	font-weight: bold;
+}
 .app-layout{
 	width: 100%;
-	padding-top: 80px; 
+	padding-top: 55px; 
 }
 
 .app-header{
 	height: 60%;
-	/*background-color: #000033; 
-	color:white;*/
 }
 
 .app-content{
 	padding: 20px;
+	padding-top: 30px;
+	text-align: center;
 }
-.app-justify{
+.app-edu-justify{
    text-align: justify;
-   color: #b38600;
+   color: #ffcc99;
 }
 
-.app-sidebar ul{
-	text-transform: uppercase;
-	text-decoration: none;
+.app-sidebar{
+	margin-top: 15px;
+	list-style:none;
 }
 .app-sidebar li{
-	margin: 15px 0;
-	text-decoration: none;
+	margin-bottom: 18px;
+	padding: 7px 0;
 	width: 90%;
 	background-color: #737373;
+	text-align: center;
+}
+.app-sidebar li:hover{
+	background-color: #b32d00;
 }
 
 .app-sidebar li a{
+	font-weight: bold;
 	font-size: 12px;
     text-transform: uppercase;	
-	color: white;
-	
-	padding: 5px;	
+	color: white;	
+	padding: 10px;	
+	text-decoration: none;
 }
+
 .app-img-edu-logo{
-   width: 300px;
+   width: 250px;
+   margin: 0 auto;
+}
+.app-img-edu-top{
+	height: 250px;
+	width: 400px;
+}
+.app-img-edu-bottom{
+	height: 250px;
+	width: 95%;
+}
+.app-edu-matricula{
+	width: 80%;
+	height: 200px;
+	background-color: #4d4dff;
+	color: white;
+}
+.app-edu-matricula a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.app-edu-cursos{
+	margin: 0 auto;
+   background-color: #4d4dff;
+   width: 90%;
+   padding: 8px 0;
+}
+.app-edu-cursos:hover{ 
+   background-color: #323232;
+}
+.app-edu-cursos a{	
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
 }
 .app-footer{
-	position: fixed;
 	width: 100%;
 	height: 50px;
-	background-color: #1b344b;
+	background-color: #4d4dff;
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
@@ -88,8 +160,9 @@ html, body{
 	background-color: #000033;
 }
 .container-fluid{
-	padding-left: 0;
-	padding-right: 0;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	width: 100%
 }
 
 .pic-carrusel-home{
@@ -98,9 +171,7 @@ html, body{
 }
 
 #app-content-home {
-
-	margin-top: 2em;
-
+	margin-top: 0.5em;
 }
 
 .img-alianza{
@@ -108,6 +179,6 @@ html, body{
 }
 
 #before-footer{
-	height: 100px;
+	height: 50px;
 	width: 100%;
 }
