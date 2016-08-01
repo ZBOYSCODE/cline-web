@@ -224,13 +224,17 @@ html, body{
    background-color: #5d7291;
    padding: 5px;
    padding-left: 15px;
-   margin-left: 15px;
+   margin-left: 25px;
    width: 200px;
    color: white;
    font-weight: bold;
 }
 .app-qs-content{
 	text-align: justify;
+	padding: 10px;
+}
+.app-qs-content-bottom{
+	padding: 0 25px;
 }
 .app-footer{
 	width: 100%;
@@ -254,11 +258,10 @@ html, body{
 .app-background-content .row{
 	margin-right: 0;
 	margin-left: 0;
-
 }
 
 .app-background-home{
-   background: url("../img/home/home.png") no-repeat center fixed;
+   background: url("../img/home/home.png") no-repeat center;
 }
 .container-fluid{
 	padding-left: 0 !important;

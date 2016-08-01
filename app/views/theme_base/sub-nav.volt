@@ -1,4 +1,4 @@
-	<div class='row app-submenu-home'>
+	<div class="row app-submenu-home">
 		<div class="col-xs-12 col-md-9">
 		    <ul class="list-inline">		       
 			    <li><a href="<?php print($this->url->get('educacionFinanciera')) ?>">EDUCACIÓN FINANCIERA</a></li>
