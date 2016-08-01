@@ -1,10 +1,16 @@
 	<div class="row app-submenu-home">
 		<div class="col-xs-12 col-md-9">
-		    <ul class="list-inline">		       
-			    <li><a href="<?php print($this->url->get('educacionFinanciera')) ?>">EDUCACIÓN FINANCIERA</a></li>
-			    <li><a href="<?php print($this->url->get('asesoriaFinanciera')) ?>">ASESORÍA FINANCIERA</a></li>
-			    <li><a href="<?php print($this->url->get('inversiones')) ?>">INVERSIONES EN BIENES RAÍCES</a></li>
-		    </ul>			
+		    <div class="row">
+		    	<div class="col-xs-12 col-md-4">
+		    		<a href="<?php print($this->url->get('educacionFinanciera')) ?>"><p>EDUCACIÓN FINANCIERA</p></a>
+		    	</div>
+		    	<div class="col-xs-12 col-md-4">
+		    		<a href="<?php print($this->url->get('asesoriaFinanciera')) ?>"><p>ASESORÍA FINANCIERA</p></a>
+		    	</div>
+		    	<div class="col-xs-12 col-md-4">
+		    		<a href="<?php print($this->url->get('inversiones')) ?>"><p>INVERSIONES EN BIENES RAÍCES</p></a>
+		    	</div>
+		    </div>		
 		</div>		
 		<div class="col-xs-12 col-md-3">
 			<form>

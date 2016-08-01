@@ -14,16 +14,19 @@ html, body{
 	border-radius: 0px; 
     background-color: #1b344b !important; 
     width: 100%;
+    padding-left:30px;
+    padding-right:30px;
 }
 .app-nav>li>a{
 	color:#ffffff;	 
 	padding-top: 20px;
-	font-size: 12px;
+	font-size: 10px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 .app-login{
 	font-size: 8px;
+	padding-top: 15px;
 }
 .app-nav >li >a >i{
 	color: white;
@@ -36,29 +39,27 @@ html, body{
 }
 .app-submenu-home{
 	text-align: center;
-	padding-top: 12px;
 	font-size: 10px;
 	margin:0 auto;
 }
-.app-submenu-home ul{
-	width: 80%;
-	margin-left: 30px;
-}
-.app-submenu-home li{
-	background-color: #1b344b;
-	padding: 8px;
-	color: white;
-	text-align: center;
-	margin-left: 7px;
-	width: 32%;
-}
-.app-submenu-home li:hover{
+
+.app-submenu-home p:hover{
 	background-color: #b32d00;
 }
-.app-submenu-home li a{
+.app-submenu-home a{	
 	text-decoration: none;
 	color: white;	
 	font-weight: bold;
+}
+.app-submenu-home p{
+  width: 100%;
+  background-color: #1b344b;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  margin-left: 3px;
+  margin: 10px auto;
+  
 }
 .app-layout{
 	width: 100%;
@@ -124,6 +125,11 @@ html, body{
 	width: 90%;
 	height: 120px;
 }
+.app-img-alianzas{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #1b344b;
+}
 .home-step-title{
 	margin:0 auto;
 	font-family: "Angsana New", "Times New Roman", Georgia;
@@ -179,7 +185,6 @@ html, body{
 	width: 400px;
 }
 .app-img-edu-bottom{
-	height: 250px;
 	width: 95%;
 }
 .app-edu-matricula{
@@ -236,6 +241,9 @@ html, body{
 .app-qs-content-bottom{
 	padding: 0 25px;
 }
+.app-alianza-content{
+   text-align: left;
+}
 .app-footer{
 	width: 100%;
 	height: 50px;
@@ -247,6 +255,7 @@ html, body{
 	font-weight: bold;
 	font-size: 12px;
 	bottom: 0;
+	position: fixed;
 }
 
 .app-background-content{

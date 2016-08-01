@@ -81,7 +81,7 @@
               </div>
               <div class="col-xs-12 col-sm-2 app-content">
                  <div class="app-edu-matricula">
-                       <a href="#">Inscripiones y Matriculate Aquí</a>
+                       <a href="#">Inscripciones y Matricúlate Aquí</a>
                  </div>
               </div>
         </div>

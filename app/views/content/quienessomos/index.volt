@@ -2,7 +2,7 @@
 
 {% block content %}
 	{{ partial("theme_base/sub-nav") }}
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 		    <div class="app-qs-title">Quiénes Somos</div><br>
 			<div class="col-xs-12 col-sm-8">
@@ -17,18 +17,16 @@
 
 			<div align="center" class="col-xs-12 col-sm-4">
 				<img src="<?php echo $this->url->get("").'img/quienesSomos/Imagen1.png'; ?>" class="" alt="">
-				<p><strong>Ricardo Gutiérrez G. <br>Socio Fundador</strong></p>
+				<p>s<strong>Ricardo Gutiérrez G. <br>Socio Fundador</strong></p>
 			</div>
 		</div>
 
 		<div class="row">
 			<p class="app-qs-content-bottom">
-			    <br><br>
                Creemos en el trabajo, perseverancia y compromiso de un equipo de profesionales incorporados a la propiedad de la compañía, en donde la misión corporativa se transforma en una forma de vida, que alcanza su plenitud en el logro de los objetivos y total satisfacción de nuestros clientes.</p>
                <br><br>
 		</div>
 	</div>
-
 
 {% endblock %}
 
