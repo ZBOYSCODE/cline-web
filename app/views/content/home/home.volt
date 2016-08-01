@@ -16,17 +16,28 @@
 <div class="container-fluid app-home-info">
    <p><a href="">REGÍSTRATE</a>,  Carga tu carpeta tributaria  y obtén en sólo segundos  tu informe credline  de registro financiero.</p>
 </div>
-<div class="container-fluid">
+<div class="container-fluid app-home-steps">
     <div class="row">
-          <div class="col-xs-12 col-sm-2 app-content">            
+    <br>
+          <div class="col-xs-12 col-sm-2 col-sm-offset-1 app-content">
+             <div class="home-step-title">Paso 1. <br>Registrate</div>
+             <img src="<?php echo $this->url->get("").'img/home/registro.png'; ?>" class="app-img-steps" alt="">            
           </div>
-          <div class="col-xs-12 col-sm-2 app-content">            
+          <div class="col-xs-12 col-sm-2 app-content">
+             <div class="home-step-title">Paso 2. <br>Ingresa Tus Datos</div>
+             <img src="<?php echo $this->url->get("").'img/home/datos.png'; ?>" class="app-img-steps" alt="">            
           </div>
-          <div class="col-xs-12 col-sm-2 app-content">            
+          <div class="col-xs-12 col-sm-2 app-content">
+             <div class="home-step-title">Paso 3. <br>Conoce Tu Realidad</div>
+             <img src="<?php echo $this->url->get("").'img/home/realidad.png'; ?>" class="app-img-steps" alt="">            
           </div>
-          <div class="col-xs-12 col-sm-2 app-content">            
+          <div class="col-xs-12 col-sm-2 app-content">
+             <div class="home-step-title">Paso 4. <br>Descubre Oportunidades</div>
+             <img src="<?php echo $this->url->get("").'img/home/oportunidades.png'; ?>" class="app-img-steps" alt="">            
           </div>
-          <div class="col-xs-12 col-sm-2 app-content">            
+          <div class="col-xs-12 col-sm-2 app-content">
+             <div class="home-step-title">Paso 5. <br>Toma Decisiones</div>
+             <img src="<?php echo $this->url->get("").'img/home/decisiones.png'; ?>" class="app-img-steps" alt="">             
           </div>
     </div>
 </div>
