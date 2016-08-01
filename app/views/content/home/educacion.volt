@@ -42,19 +42,24 @@
                  </div>
               </div>
               <div class="col-xs-12 col-sm-7 app-content">
-                <table class="table">
+                <table class="table table-head-top">
                     <thead>
-                      <tr>
-                        <th>Áreas Temáticas</th>
+                      <tr >
+                        <th >Áreas Temáticas</th>
                         <th>Cursos Permanentes</th>
                         <th>Prog. de Formación para no Especialistas</th>
                         <th>Prog. de Formación para Ejecutivos de Bancos e IIFF</th>
                       </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="align-left">
                       <tr>
                         <th scope="row">Análisis de Créditos y Negocios Financieros</th>
-                        <td>Lorem ipsum dolor sit amet</td>
+                        <td >Análisis Crediticio de Declaraciones de Impuestos – Empresas PYME <br/><br/>
+                            Análisis Crediticio de Declaraciones de Impuestos – Empresas Personas Naturales<br/><br/>
+                            Depuración y vaciado de Balances Tributarios <br/><br/>
+                            Análisis de Riesgo a empresas y negocios PYME <br/><br/>
+                            Análisis financiero aplicado a empresas y negocios Pyme 
+                        </td>
                         <td>Lorem ipsum dolor sit amet</td>
                         <td>Lorem ipsum dolor sit amet</td>
                       </tr>

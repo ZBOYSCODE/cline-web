@@ -305,3 +305,24 @@ html, body{
 	font-weight: bold;
 
 }
+
+.little-title{
+	font-weight: bolder;
+
+}
+
+.align-left{
+	text-align: left;
+
+}
+.table-head-top{
+		font-size: 10px;
+
+
+}
+
+
+.table-head-top>thead>tr>th {
+    vertical-align: top;
+
+}
