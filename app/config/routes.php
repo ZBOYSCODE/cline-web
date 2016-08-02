@@ -97,5 +97,30 @@
 	    'action' => 'nuevosNegocios'
 	));
 
+	$router->add('/casas', array(
+	    'controller' => 'InversionesBienesRaices',
+	    'action' => 'casas'
+	));
+
+	$router->add('/departamentos', array(
+	    'controller' => 'InversionesBienesRaices',
+	    'action' => 'departamentos'
+	));
+
+	$router->add('/locales-oficinas', array(
+	    'controller' => 'InversionesBienesRaices',
+	    'action' => 'localesComerciales'
+	));
+
+	$router->add('/segundaVivienda', array(
+	    'controller' => 'InversionesBienesRaices',
+	    'action' => 'segundaVivienda'
+	));
+
+	$router->add('/vender-propiedad', array(
+	    'controller' => 'InversionesBienesRaices',
+	    'action' => 'vendoPropiedad'
+	));
+
 
 	return $router;

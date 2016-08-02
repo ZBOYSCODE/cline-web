@@ -11,95 +11,71 @@
             <div class="col-xs-12 col-sm-4 app-content">
                 <ul class="app-sidebar">
                   <li>
-                        <a href="">Casas</a>
+                      <a href="<?php print($this->url->get('casas')) ?>">Casas</a>
                   </li>
                   <li>
-                        <a href="">Departamentos</a>
+                      <a href="<?php print($this->url->get('departamentos')) ?>">Departamentos</a>
                   </li>
                   <li>
-                        <a href="">Segunda Vivienda</a>
+                      <a href="<?php print($this->url->get('segundaVivienda')) ?>">Segunda Vivienda</a>
                   </li>
                   <li>
-                        <a href="">Oficinas & locales Comerciales</a>
+                      <a href="<?php print($this->url->get('locales-oficinas')) ?>">Oficinas & locales Comerciales</a>
                   </li>
                    <li>
-                        <a href="">Vendo mi Propiedad</a>
+                      <a href="<?php print($this->url->get('vender-propiedad')) ?>">Vendo mi Propiedad</a>
                   </li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-4 app-content">
-			
-              <img src="<?php echo $this->url->get("").'img/asesoria/bienesraices.png'; ?>" class="img-responsive" alt="" style="padding-top: 16px;">
 
-                   
-               
+            <div class="col-xs-12 col-sm-4 app-content">			
+                 <img src="<?php echo $this->url->get("").'img/asesoria/bienesraices.png'; ?>" class="img-responsive" alt="" style="padding-top: 16px;">             
             </div>
 					
-            		<div class="col-xs-12 col-sm-4 app-content text-padding">
-              				<h1 class="app-titulo-home-right pull-right">PROYECTOS INMOBILIARIOS ...EN EJECUCIÓN
-							</h1>
-
-							
-              				<div class="row"	>
-              					<div class="col-xs-12 col-sm-12 app-content">
-              							<img src="<?php echo $this->url->get("").'img/asesoria/casabarra.png'; ?>"   alt="">
-              					</div>
-
-
-
-
-              				</div>
-
-
-
-
-            		</div>
-            
-     	</div>
-      		
+    		<div class="col-xs-12 col-sm-4 app-content text-padding">
+      			<h1 class="app-titulo-home-right pull-right">PROYECTOS INMOBILIARIOS ...EN EJECUCIÓN</h1>
+      			<div class="row"	>
+				    <div class="col-xs-12 col-sm-12 app-content">
+						    <img src="<?php echo $this->url->get("").'img/asesoria/casabarra.png'; ?>"   alt="">
+				    </div>
+			    </div>
+    		</div>            
+     	</div>      		
     </div>
 
 
     <div class="container-fluid">
       	<div class="row">
       			<div class="col-xs-12 col-sm-4 app-content ">
-
-				<img src="<?php echo $this->url->get("").'img/bienesraices/edificios.png'; ?>" class="img-responsive" style="padding-top:30px;" alt="">
+				    <img src="<?php echo $this->url->get("").'img/bienesraices/edificios.png'; ?>" class="img-responsive" style="padding-top:30px;" alt="">
       			</div>
 
       			<div class="col-xs-12 col-sm-8 app-content">
 				<div class="row">
 					<div class="col-xs-12 col-sm-4 app-content">
 				
-							<p class="little-title">¿POR  QUÉ  INVERTIR  EN  ACTIVOS  DFL2?<p>
-		
+						<p class="little-title">¿POR  QUÉ  INVERTIR  EN  ACTIVOS  DFL2?<p>
 						<ul class="align-left">
-								<li>Generan  ingresos NO tributables.</li> 
-								<li>Beneficio Art. 55 Bis rebaja intereses financieros de la base imponible tributaria.</li> 
-								<li>Exención en pago de contribuciones por 20 años para viviendas de menos 70 M2,  15 años entre 71 y 100 M2 y 10 años para mayores de 100M2.</li>
-								<li>No afecto a impuesto de herencias respecto del primer comprador  que fallece con a lo menos 6 meses después de la fecha de compra.</li>  
-
+							<li>Generan  ingresos NO tributables.</li> 
+							<li>Beneficio Art. 55 Bis rebaja intereses financieros de la base imponible tributaria.</li> 
+							<li>Exención en pago de contribuciones por 20 años para viviendas de menos 70 M2,  15 años entre 71 y 100 M2 y 10 años para mayores de 100M2.</li>
+							<li>No afecto a impuesto de herencias respecto del primer comprador  que fallece con a lo menos 6 meses después de la fecha de compra.</li>  
 						</ul>
 
 					</div>
 					<div class="col-xs-12 col-sm-4 app-content">
 					<p class="little-title">¿COMO PARTIR EN ESTE NEGOCIO?</p>
 					<br/>
-
-						
-							<ul class="align-left">
-								<li>Invertir en propiedades de poco metraje, bajo costo y alta demanda por arrendamiento.</li> 
-								<li>Financiar la compra con crédito hipotecario. </li> 
-								<li>Comprar en blanco o en verde a fin de pagar el pie con facilidades y al menor precio posible.</li>
-								<li>Pre-calificar como sujeto de crédito.</li>  
-								<li>Disponer de capacidad de ahorro para financiar el pie.</li>
-								<li>Perfil etario compatible con financiamiento de largo plazo.</li>
-
-							</ul>
-						
-
+						<ul class="align-left">
+							<li>Invertir en propiedades de poco metraje, bajo costo y alta demanda por arrendamiento.</li> 
+							<li>Financiar la compra con crédito hipotecario. </li> 
+							<li>Comprar en blanco o en verde a fin de pagar el pie con facilidades y al menor precio posible.</li>
+							<li>Pre-calificar como sujeto de crédito.</li>  
+							<li>Disponer de capacidad de ahorro para financiar el pie.</li>
+							<li>Perfil etario compatible con financiamiento de largo plazo.</li>
+						</ul>
 					</div>
-							<div class="col-xs-12 col-sm-4 app-content">
+					<div class="col-xs-12 col-sm-4 app-content">
 								<p class="little-title">¿QUÉ VENTAJAS OFRECE ESTE NEGOCIO?</p>
 										<ul class="align-left">
 				 							<li>El arriendo paga el dividendo.</li> 
@@ -111,18 +87,13 @@
 											<li>Demanda creciente por arrendamiento.</li>
 			
 										</ul>	
-			
-
-							</div>
+					</div>
 				</div>
-
       		</div>
-
-     		 
-
-     	</div>	
-     	
-
+     	</div>
+     	<br>
+     	<br>
+     	<br>	
     </div>
 	
 {% endblock %}
