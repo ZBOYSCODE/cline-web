@@ -17,7 +17,7 @@
 
 			<div align="center" class="col-xs-12 col-sm-4">
 				<img src="<?php echo $this->url->get("").'img/quienesSomos/Imagen1.png'; ?>" class="" alt="">
-				<p>s<strong>Ricardo Gutiérrez G. <br>Socio Fundador</strong></p>
+				<p><strong>Ricardo Gutiérrez G. <br>Socio Fundador</strong></p>
 			</div>
 		</div>
 
