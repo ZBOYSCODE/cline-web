@@ -6,19 +6,19 @@
  
     <div class="container-fluid app-background-content">
       <div class="row">
-            <div class="col-xs-12 col-sm-4 app-content">
-                <ul class="app-sidebar">
+             <div class="col-xs-12 col-sm-4 app-content">
+                 <ul class="app-sidebar">
                   <li>
-                        <a href="<?php print($this->url->get('ejecutivos-bancos-iiff')) ?>">Ejecutivos de bancos e IIFF</a>
+                      <a href="<?php print($this->url->get('ejecutivos-bancos-iiff')) ?>"><p>Ejecutivos de bancos e IIFF</p></a>
                   </li>
                   <li>
-                        <a href="<?php print($this->url->get('emprendedores-gestores-negocios')) ?>">Emprendedores y Gestores de Negocios</a>
-                  </li>
-                  <li>
-                        <a href="<?php print($this->url->get('consultores-negocios-empresas')) ?>">Consultores de Empresas y Negocios</a>
-                  </li>
-                  <li>
-                        <a href="<?php print($this->url->get('industria-artes-oficios')) ?>">IAO-INDUSTRIA, ARTES Y OFICIOS</a>
+                      <a href="<?php print($this->url->get('emprendedores-gestores-negocios')) ?>"><p>Emprendedores y Gestores de Negocios</p></a>
+                 </li>
+                 <li>
+                      <a href="<?php print($this->url->get('consultores-negocios-empresas')) ?>"><p>Consultores de Empresas y Negocios</p></a>
+                 </li>
+                 <li>
+                      <a href="<?php print($this->url->get('industria-artes-oficios')) ?>"><p>IAO-INDUSTRIA, ARTES Y OFICIOS</p></a>
                   </li>
                 </ul>
             </div>

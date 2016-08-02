@@ -8,20 +8,21 @@
     <div class="container-fluid app-background-content">
       <div class="row">
             <div class="col-xs-12 col-sm-4 app-content">
-                <ul class="app-sidebar">
-                  <li>
-                        <a href="<?php print($this->url->get('diagnostico-financiero')) ?>">Diagnóstico Financiero</a>
-                  </li>
-                  <li>
-                        <a href="<?php print($this->url->get('planeamiento-financiero-tributario')) ?>">Planeamiento Financiero y Tributario</a>
-                  </li>
-                  <li>
-                        <a href="<?php print($this->url->get('gestion-activos-porfolios')) ?>">Gestión de Activos y Portafolios</a>
-                  </li>
-                  <li>
-                        <a href="<?php print($this->url->get('emprendimiento-nuevos-negocios')) ?>">Emprendimiento & nuevos Negocios</a>
-                  </li>
-                </ul>
+                      <ul class="app-sidebar">
+                          <li>
+                                    
+                                <a href="<?php print($this->url->get('diagnostico-financiero')) ?>"><p>Diagnóstico Financiero</p></a>
+                          </li>
+                          <li>
+                                <a href="<?php print($this->url->get('planeamiento-financiero-tributario')) ?>"><p>Planeamiento Financiero y Tributario</p></a>
+                          </li>
+                          <li>
+                                    <a href="<?php print($this->url->get('gestion-activos-porfolios')) ?>"><p>Gestión de Activos y Portafolios</p></a>
+                          </li>
+                          <li>
+                                    <a href="<?php print($this->url->get('emprendimiento-nuevos-negocios')) ?>"><p>Gestión de Activos y Portafolios</p></a>
+                          </li>
+                      </ul>
             </div>
 
             <div class="col-xs-12 col-sm-4 app-content app-content-img" >

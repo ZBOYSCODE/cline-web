@@ -8,24 +8,25 @@
     <div class="container-fluid app-background-content">
       <div class="row">
             <div class="col-xs-12 col-sm-4 app-content">
-                <ul class="app-sidebar">
-                  <li>
-                      <a href="<?php print($this->url->get('casas')) ?>">Casas</a>
-                  </li>
-                  <li>
-                      <a href="<?php print($this->url->get('departamentos')) ?>">Departamentos</a>
-                  </li>
-                  <li>
-                      <a href="<?php print($this->url->get('segundaVivienda')) ?>">Segunda Vivienda</a>
-                  </li>
-                  <li>
-                      <a href="<?php print($this->url->get('locales-oficinas')) ?>">Oficinas & locales Comerciales</a>
-                  </li>
-                   <li>
-                      <a href="<?php print($this->url->get('vender-propiedad')) ?>">Vendo mi Propiedad</a>
-                  </li>
-                </ul>
-            </div>
+              <ul class="app-sidebar">
+               <li>
+                    <a href="<?php print($this->url->get('casas')) ?>"><p>Casas</p></a>
+               </li>
+               <li>
+                    <a href="<?php print($this->url->get('departamentos')) ?>"><p>Departamentos</p></a>
+               </li>
+               <li>
+                    <a href="<?php print($this->url->get('segundaVivienda')) ?>"><p>Segunda Vivienda</p></a>
+               </li>
+               <li>
+                    <a href="<?php print($this->url->get('locales-oficinas')) ?>"><p>Oficinas & locales</p></a>
+               </li>
+               <li>
+                    <a href="<?php print($this->url->get('vender-propiedad')) ?>"><p>Vendo mi Propiedad</p></a>
+                </li>
+
+              </ul>
+          </div>
 
             <div class="col-xs-12 col-sm-4 app-content">      
                 <img src="<?php echo $this->url->get("").'img/bienesraices/segundaVivienda.png'; ?>" class="img-responsive" alt="" style="padding-top: 16px;">             
