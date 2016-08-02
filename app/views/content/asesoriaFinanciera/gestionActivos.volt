@@ -34,9 +34,7 @@
          </div>   
     </div>
 
-    <div class="container-fluid">  
-
-    </div> 
+    {{ partial("content/asesoriaFinanciera/contenidoRepetidoAse") }}
     
 {% endblock %}
 
