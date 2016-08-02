@@ -146,6 +146,13 @@ html, body{
 	padding-top: 30px;
 	text-align: center;
 }
+
+.app-content-img img{
+	margin-top: 15px;
+
+
+}
+
 .app-edu-justify{
    text-align: justify;
    color: #ffcc99;
@@ -287,6 +294,8 @@ html, body{
 	margin-top: 0.5em;
 }
 
+
+
 .img-alianza{
 	margin-bottom: 2em;
 }
@@ -310,6 +319,9 @@ html, body{
 	font-weight: bolder;
 
 }
+.little-title2{
+	font-size: small;
+}
 
 .align-left{
 	text-align: left;
@@ -321,8 +333,26 @@ html, body{
 
 }
 
-
 .table-head-top>thead>tr>th {
     vertical-align: top;
 
 }
+
+.table-planes>thead>tr{
+	background-color: #788BA8;
+	color: white;
+
+
+}
+
+.table-planes>tbody>tr{
+	background-color: #D6DCE5;
+	color: black;
+
+
+
+}
+
+
+
+

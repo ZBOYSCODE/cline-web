@@ -42,7 +42,7 @@
                  </div>
               </div>
               <div class="col-xs-12 col-sm-7 app-content">
-                <table class="table table-head-top">
+                <table class="table table-head-top table-planes">
                     <thead>
                       <tr >
                         <th >Áreas Temáticas</th>
@@ -54,32 +54,56 @@
                     <tbody class="align-left">
                       <tr>
                         <th scope="row">Análisis de Créditos y Negocios Financieros</th>
-                        <td >Análisis Crediticio de Declaraciones de Impuestos – Empresas PYME <br/><br/>
+                        <td >Análisis Crediticio de Declaraciones de Impuestos – Empresas PYME <br/>
+                        <br/>
                             Análisis Crediticio de Declaraciones de Impuestos – Empresas Personas Naturales<br/><br/>
                             Depuración y vaciado de Balances Tributarios <br/><br/>
                             Análisis de Riesgo a empresas y negocios PYME <br/><br/>
                             Análisis financiero aplicado a empresas y negocios Pyme 
                         </td>
-                        <td>Lorem ipsum dolor sit amet</td>
-                        <td>Lorem ipsum dolor sit amet</td>
+                       
+                        <td><input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/>
+                        </td>
+                        <td><input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/>
+                        </td>
+
                       </tr>
                       <tr>
                         <th scope="row">Talleres Financieros</th>
-                        <td>Lorem ipsum dolor sit amet</td>
-                        <td>Lorem ipsum dolor sit amet</td>
-                        <td>Lorem ipsum dolor sit amet</td>
+                        <td>Uso de Calculadora Financiera HP12C</td>
+                        <td><input  type="checkbox"/></td>
+                        <td><input  type="checkbox"/></td>
                       </tr>
                       <tr>
                         <th scope="row">Matemáticas Financieras y Estadísticas Aplicadas</th>
-                        <td>Lorem ipsum dolor sit amet</td>
-                        <td>Lorem ipsum dolor sit amet</td>
-                        <td>Lorem ipsum dolor sit amet</td>
+                        <td>Matemática Financiera <br/><br/>
+                            Estadística Descriptiva <br/><br/>
+                            Evaluación de Proyectos
+                        </td>
+                        <td><input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/></td>
+                        <td><input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/></td>
                       </tr>
                       <tr>
-                        <th scope="row">Tributación Aplicada</th>
-                        <td>Lorem ipsum dolor sit amet</td>
-                        <td>Lorem ipsum dolor sit amet</td>
-                        <td>Lorem ipsum dolor sit amet</td>
+                          <th scope="row">Tributación Aplicada</th>
+                            <td>Franquicia Tributaria a las Personas naturales <br/><br/>
+                            Franquicia Tributaria a las Personas Jurídicas
+                            </td>
+                        <td><input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/></td>
+                        <td><input  type="checkbox"/><br/><br/>
+                            <input  type="checkbox"/></td>
                       </tr>
                     </tbody>
                   </table>
@@ -91,6 +115,21 @@
               </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {% endblock %}
 
 
