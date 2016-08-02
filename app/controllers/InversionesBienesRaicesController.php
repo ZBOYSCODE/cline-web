@@ -1,6 +1,6 @@
 <?php
 
-class InversionesBienesRaicesController extends \Phalcon\Mvc\Controller
+class InversionesbienesraicesController extends \Phalcon\Mvc\Controller
 {
 
     public function indexAction()

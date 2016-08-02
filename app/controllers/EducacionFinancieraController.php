@@ -1,6 +1,6 @@
 <?php
 
-class EducacionFinancieraController extends \Phalcon\Mvc\Controller
+class EducacionfinancieraController extends \Phalcon\Mvc\Controller
 {
 
     public function indexAction()
