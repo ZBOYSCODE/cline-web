@@ -195,14 +195,14 @@ html, body{
 	margin-top: 15px;
 	list-style:none;
 }
-.app-sidebar li{
-	margin-bottom: 18px;
+.app-sidebar p{
 	padding: 7px 0;
 	width: 90%;
 	background-color: #737373;
 	text-align: center;
+	margin-bottom: 18px;
 }
-.app-sidebar li:hover{
+.app-sidebar p:hover{
 	background-color: #b32d00;
 }
 
@@ -210,8 +210,7 @@ html, body{
 	font-weight: bold;
 	font-size: 12px;
     text-transform: uppercase;	
-	color: white;	
-	padding: 10px;	
+	color: white;		
 	text-decoration: none;
 }
 
