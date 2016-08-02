@@ -158,6 +158,38 @@ html, body{
    color: #ffcc99;
    font-size: 12px;
 }
+.app-edu-border{
+	font-family: "Angsana New", "Times New Roman", Georgia;
+	border: 1px solid #ffcc99;
+	color: #ffcc99;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.app-edu-border ul{
+    margin-top: 20px;
+}
+.app-edu-border li{
+    width: 45%;
+}
+.app-edu-border a{
+	text-decoration: none;
+}
+.app-edu-ul-emp li{
+  width: 30% !important;
+}
+.app-edu-border li p:hover{
+	background-color: #b32d00;
+}
+.app-edu-border li p{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #737373;
+    padding: 5px;
+    color: white;
+    width: 100%;
+}
 
 .app-sidebar{
 	margin-top: 15px;
@@ -188,8 +220,7 @@ html, body{
    margin: 0 auto;
 }
 .app-img-edu-top{
-	height: 250px;
-	width: 400px;
+	width: 80%;
 }
 .app-img-edu-bottom{
 	width: 95%;
