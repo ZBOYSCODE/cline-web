@@ -57,4 +57,45 @@
 	    'action' => 'inversiones'
 	));
 
+	$router->add('/ejecutivos-bancos-iiff', array(
+	    'controller' => 'EducacionFinanciera',
+	    'action' => 'ejecutivosBancos'
+	));
+    
+    $router->add('/emprendedores-gestores-negocios', array(
+	    'controller' => 'EducacionFinanciera',
+	    'action' => 'gestoresNegocios'
+	));
+
+	$router->add('/consultores-negocios-empresas', array(
+	    'controller' => 'EducacionFinanciera',
+	    'action' => 'consultoresNegocios'
+	));
+
+	$router->add('/industria-artes-oficios', array(
+	    'controller' => 'EducacionFinanciera',
+	    'action' => 'industria'
+	));
+
+	$router->add('/diagnostico-financiero', array(
+	    'controller' => 'AsesoriaFinanciera',
+	    'action' => 'diagnosticoFinanciero'
+	));
+
+	$router->add('/planeamiento-financiero-tributario', array(
+	    'controller' => 'AsesoriaFinanciera',
+	    'action' => 'planeamientoFinanciero'
+	));
+
+	$router->add('/gestion-activos-porfolios', array(
+	    'controller' => 'AsesoriaFinanciera',
+	    'action' => 'gestionActivos'
+	));
+
+	$router->add('/emprendimiento-nuevos-negocios', array(
+	    'controller' => 'AsesoriaFinanciera',
+	    'action' => 'nuevosNegocios'
+	));
+
+
 	return $router;

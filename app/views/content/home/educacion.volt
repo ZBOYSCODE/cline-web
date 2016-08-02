@@ -10,16 +10,16 @@
             <div class="col-xs-12 col-sm-4 app-content">
                 <ul class="app-sidebar">
                   <li>
-                        <a href="">Ejecutivos de bancos e IIFF</a>
+                        <a href="<?php print($this->url->get('ejecutivos-bancos-iiff')) ?>">Ejecutivos de bancos e IIFF</a>
                   </li>
                   <li>
-                        <a href="">Emprendedores y Gestores de Negocios</a>
+                        <a href="<?php print($this->url->get('emprendedores-gestores-negocios')) ?>">Emprendedores y Gestores de Negocios</a>
                   </li>
                   <li>
-                        <a href="">Consultores de Empresas y Negocios</a>
+                        <a href="<?php print($this->url->get('consultores-negocios-empresas')) ?>">Consultores de Empresas y Negocios</a>
                   </li>
                   <li>
-                        <a href="">IAO-INDUSTRIA, ARTES Y OFICIOS</a>
+                        <a href="<?php print($this->url->get('industria-artes-oficios')) ?>">IAO-INDUSTRIA, ARTES Y OFICIOS</a>
                   </li>
                 </ul>
             </div>
