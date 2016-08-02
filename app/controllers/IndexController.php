@@ -31,10 +31,10 @@ class IndexController extends ControllerBase
     public function trabajaAction(){
     	$this->view->pick("content/trabaja/index");
     }
-    public function educacionFinancieraAction(){
+    public function educacionfinancieraAction(){
         $this->view->pick("content/home/educacion");
     }
-    public function asesoriaFinancieraAction(){
+    public function asesoriafinancieraAction(){
         $this->view->pick("content/home/asesoria");
     }
     public function inversionesAction(){

@@ -47,9 +47,9 @@
 	    'action' => 'asesoriaFinanciera'
 	));
 
-	$router->add('/educacionfinanciera', array(
+	$router->add('/educacionFinanciera', array(
 	    'controller' => 'index',
-	    'action' => 'educacionfinanciera'
+	    'action' => 'educacionFinanciera'
 	));
 
 	$router->add('/inversiones', array(
@@ -58,22 +58,22 @@
 	));
 
 	$router->add('/ejecutivos-bancos-iiff', array(
-	    'controller' => 'educacionfinanciera',
+	    'controller' => 'EducacionFinanciera',
 	    'action' => 'ejecutivosBancos'
 	));
     
     $router->add('/emprendedores-gestores-negocios', array(
-	    'controller' => 'educacionfinanciera',
+	    'controller' => 'EducacionFinanciera',
 	    'action' => 'gestoresNegocios'
 	));
 
 	$router->add('/consultores-negocios-empresas', array(
-	    'controller' => 'educacionfinanciera',
+	    'controller' => 'EducacionFinanciera',
 	    'action' => 'consultoresNegocios'
 	));
 
 	$router->add('/industria-artes-oficios', array(
-	    'controller' => 'educacionfinanciera',
+	    'controller' => 'EducacionFinanciera',
 	    'action' => 'industria'
 	));
 
