@@ -23,7 +23,7 @@
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-4 app-content">
-              <h1>Dianostico Financiero</h1>  
+              <img  src="<?php echo $this->url->get("").'img/asesoria/sub/imagen5.png'; ?>" class="img-responsive" style="padding-top: 28px;" alt="">     
             </div>
           
             <div class="col-xs-12 col-sm-4 app-content text-padding">
