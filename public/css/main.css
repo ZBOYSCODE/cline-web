@@ -208,6 +208,14 @@ html, body{
 	background-color: #b32d00;
 }
 
+.app-sidebar p.active{
+	background-color: #b32d00;
+
+
+}
+
+
+
 .app-sidebar li a{
 	font-weight: bold;
 	font-size: 12px;
