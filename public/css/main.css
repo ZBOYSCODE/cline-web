@@ -419,16 +419,24 @@ html, body{
 .table-planes>thead>tr{
 	background-color: #788BA8;
 	color: white;
-
-
 }
 
 .table-planes>tbody>tr{
 	background-color: #D6DCE5;
 	color: black;
+}
 
+.login-form .btn-login {
+	font-size: 10px;
+	margin-bottom: 3px;
+}
 
-
+.login-form input{
+	display: inline;
+	font-size: 12px;
+	width: 100px;
+	height: 20px;
+	margin-right: 4px;
 }
 
 

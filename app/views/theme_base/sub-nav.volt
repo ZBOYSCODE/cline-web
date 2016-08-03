@@ -13,12 +13,11 @@
 		    </div>		
 		</div>		
 		<div class="col-xs-12 col-md-3">
-			<form>
+			<form id="loginForm" method="post" action="<?php print $this->url->get('session/login')?>" class="login-form">
 				<div class="form-group app-login">
-					<label for="usuario">Usuario: </label>
-					<input type="text" name="usuario">
-					<label for="password">Password: </label>
-					<input type="text" name="password">
+					<input type="text" id="user" name="user"  placeholder="Usuario" class="form-control">
+					<input type="password" id="password" name="password" placeholder="Password" class="form-control">
+					<a id="enviar-form" class="btn btn-primary btn-xs btn-login" href="javascript:void(0)">Ingresar</a>
 				</div>			
 			</form>
 		</div>
