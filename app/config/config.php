@@ -19,6 +19,6 @@ return new \Phalcon\Config(array(
         'pluginsDir'     => APP_PATH . '/app/plugins/',
         'libraryDir'     => APP_PATH . '/app/library/',
         'cacheDir'       => APP_PATH . '/app/cache/',
-        'baseUri'        => '/credline-web/',
+        'baseUri'        => (($_SERVER['HTTP_HOST']=='www.credline.cl' || $_SERVER['HTTP_HOST']=='credline.cl')?'http://'.$_SERVER['HTTP_HOST'].'/':'http://'.$_SERVER['HTTP_HOST'].'/credline-web/'),
     )
 ));
