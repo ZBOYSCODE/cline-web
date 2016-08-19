@@ -18,6 +18,11 @@ class SessionController extends ControllerBase
                 $data["estado"] = true;
                 $data["hash"] = "qJB0rGtIn5UB1xG03efyCp";
             }
+            elseif($password == "ricardo" && $user == "ricardo"){
+                $data["msg"] = "Datos Correctos, redirigiendo...";
+                $data["estado"] = true;
+                $data["hash"] = "qJB0rGtIn5UB1xG03efyCc";
+            }
             else {
                 $data["msg"] = "Error en el usuario y/o passwords";
                 $data["estado"] = false;
