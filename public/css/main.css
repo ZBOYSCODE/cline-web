@@ -67,14 +67,22 @@ html, body{
 .app-loginForm{
 	font-size: 12px;
 }
-.app-loginForm input, .app-loginForm button,.app-loginForm a{
-	width: 100px !important;
+.app-loginForm input, .app-loginForm button{
+	width: 80px !important;
 	border-radius: 0!important;
 	margin-left: 5px;
 	margin-top: 10px;
     margin-bottom: 4px !important;
     padding: 8px;
 } 
+.app-loginForm a{
+	width: 60px !important;
+	border-radius: 0!important;
+	margin-left: 5px;
+	margin-top: 10px;
+    margin-bottom: 4px !important;
+    padding: 8px;
+}
 .app-loginForm button, .app-loginForm a{
   background-color: #1b344b !important;
   color: #ffffff;
