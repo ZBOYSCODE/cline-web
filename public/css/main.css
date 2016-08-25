@@ -893,6 +893,33 @@ html, body{
 	margin-right: 4px;
 }
 
+.color-quienes{
+ color: #5D7291;
+ text-align: justify;
+ 
+}
+
+.padding-quienes{
+	padding-top: 35px;
+
+
+}
+.padding-quienes-ul{
+	padding-left: 47px;
+
+}
+.padding-quienes-bottom{
+	padding-left: 30px;
+
+}
+.universal-font{
+    font-family: "Angsana New", "Times New Roman", Georgia;
+	font-size: medium;}
+
+.universal-font-bigger{
+    font-family: "Angsana New", "Times New Roman", Georgia !important;
+	font-size: large !important;}
+
 
 
 

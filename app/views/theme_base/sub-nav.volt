@@ -21,13 +21,13 @@
 		<div class="col-xs-12 col-md-9">
 		    <div class="row">
 		    	<div class="col-xs-12 col-md-4">
-		    		<a href="<?php print($this->url->get('educacionFinanciera')) ?>"><p class="{{opcion1}}">EDUCACIÓN FINANCIERA</p></a>
+		    		<a href="<?php print($this->url->get('educacionFinanciera')) ?>"><p class="{{opcion1}} universal-font">EDUCACIÓN FINANCIERA</p></a>
 		    	</div>
 		    	<div class="col-xs-12 col-md-4">
-		    		<a href="<?php print($this->url->get('asesoriaFinanciera')) ?>"><p class="{{opcion2}}">ASESORÍA FINANCIERA</p></a>
+		    		<a href="<?php print($this->url->get('asesoriaFinanciera')) ?>"><p class="{{opcion2}} universal-font" >ASESORÍA FINANCIERA</p></a>
 		    	</div>
 		    	<div class="col-xs-12 col-md-4">
-		    		<a href="<?php print($this->url->get('inversiones')) ?>"><p class="{{opcion3}}">BIENES RAÍCES</p></a>
+		    		<a href="<?php print($this->url->get('inversiones')) ?>"><p class="{{opcion3}} universal-font">BIENES RAÍCES</p></a>
 		    	</div>
 		    </div>		
 		</div>		

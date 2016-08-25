@@ -9,12 +9,12 @@
             </div>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="nav navbar-nav navbar-right app-nav">
-                    <li><a href="<?php echo $this->url->get("");?>">INICIO</a></li>
-                    <li><a href="<?php echo $this->url->get("quienes-somos");?>">QUIENES SOMOS</a></li>
-                    <li><a href="<?php echo $this->url->get("evaluador-online");?>">EVALUADOR ONLINE</a></li>
-                    <li><a href="<?php echo $this->url->get("registrate");?>">REGÍSTRATE</a></li>
-                    <li><a href="<?php echo $this->url->get("trabaja-con-nosotros");?>">TRABAJA CON NOSOTROS</a></li>  
-                    <li><a href="<?php echo $this->url->get("trabaja-con-nosotros");?>">CONTÁCTANOS</a></li>                           
+                    <li><a href="<?php echo $this->url->get("");?>"><p class="universal-font-bigger">INICIO</p></a></li>
+                    <li><a href="<?php echo $this->url->get("quienes-somos");?>"><p class="universal-font-bigger">QUIENES SOMOS</p></a></li>
+                    <li><a href="<?php echo $this->url->get("evaluador-online");?>"><p class="universal-font-bigger">EVALUADOR ONLINE</p></a></li>
+                    <li><a href="<?php echo $this->url->get("registrate");?>"><p class="universal-font-bigger">REGÍSTRATE</p></a></li>
+                    <li><a href="<?php echo $this->url->get("trabaja-con-nosotros");?>"><p class="universal-font-bigger">TRABAJA CON NOSOTROS</p></a></li>  
+                    <li><a href="<?php echo $this->url->get("trabaja-con-nosotros");?>"><p class="universal-font-bigger">CONTÁCTANOS</p></a></li>                           
                 </ul>
             </div>                   
         </div>

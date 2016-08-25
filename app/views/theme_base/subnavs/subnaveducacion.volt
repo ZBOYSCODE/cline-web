@@ -19,15 +19,15 @@
              <ul class="app-sidebar">
               <li>
                   <a href="<?php print($this->url->get('ejecutivos-bancos-iiff')) ?>">
-                  <p class="{{opcion1}}">Ejecutivos de bancos e IIFF</p></a>
+                  <p class="{{opcion1}} universal-font">Ejecutivos de bancos e IIFF</p></a>
               </li>
               <li>
                   <a href="<?php print($this->url->get('emprendedores-gestores-negocios')) ?>">
-                  <p class="{{opcion2}}" >Emprendedores y Gestores de Negocios</p></a>
+                  <p class="{{opcion2}} universal-font" >Emprendedores y Gestores de Negocios</p></a>
              </li>
              <li>
                   <a href="<?php print($this->url->get('consultores-negocios-empresas')) ?>">
-                  <p class="{{opcion3}}" >Consultores de Empresas y Negocios</p></a>
+                  <p class="{{opcion3}} universal-font" >Consultores de Empresas y Negocios</p></a>
              </li>
             </ul>
         </div>

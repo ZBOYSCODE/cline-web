@@ -26,19 +26,19 @@
                 <ul class="app-sidebar">
                     <li>
                           <a href="<?php print($this->url->get('diagnostico-financiero')) ?>">
-                          <p class="{{opcion1}}">Diagnóstico Financiero</p></a>
+                          <p class="{{opcion1}} universal-font">Diagnóstico Financiero</p></a>
                     </li>
                     <li>
                           <a href="<?php print($this->url->get('planeamiento-financiero-tributario')) ?>">
-                          <p class="{{opcion2}}">Planeamiento Financiero y Tributario</p></a>
+                          <p class="{{opcion2}} universal-font">Planeamiento Financiero y Tributario</p></a>
                     </li>
                     <li>
                               <a href="<?php print($this->url->get('gestion-activos-porfolios')) ?>">
-                          <p class="{{opcion3}}">Gestión de Activos y Portafolios</p></a>
+                          <p class="{{opcion3}} universal-font">Gestión de Activos y Portafolios</p></a>
                     </li>
                     <li>
                           <a href="<?php print($this->url->get('emprendimiento-nuevos-negocios')) ?>">
-                          <p class="{{opcion4}}">Emprendimiento y Nuevos Negocios</p></a>
+                          <p class="{{opcion4}} universal-font">Emprendimiento y Nuevos Negocios</p></a>
                     </li>
                 </ul>
       </div> 

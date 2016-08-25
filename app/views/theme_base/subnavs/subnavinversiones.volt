@@ -27,23 +27,23 @@
              <ul class="app-sidebar">
               <li>
                   <a href="<?php print($this->url->get('casas')) ?>">
-                  <p class="{{opcion1}}">Casas</p></a>
+                  <p class="{{opcion1}} universal-font">Casas</p></a>
               </li>
               <li>
                   <a href="<?php print($this->url->get('departamentos')) ?>">
-                  <p class="{{opcion2}}" >Departamentos</p></a>
+                  <p class="{{opcion2}} universal-font" >Departamentos</p></a>
              </li>
              <li>
                   <a href="<?php print($this->url->get('segundaVivienda')) ?>">
-                  <p class="{{opcion3}}" >Segunda Vivienda</p></a>
+                  <p class="{{opcion3}} universal-font" >Segunda Vivienda</p></a>
              </li>
              <li>
                   <a href="<?php print($this->url->get('locales-oficinas')) ?>">
-                  <p class="{{opcion4}}" >Oficinas y locales</p></a>
+                  <p class="{{opcion4}} universal-font" >Oficinas y locales</p></a>
               </li>
               <li>
                   <a href="<?php print($this->url->get('vender-propiedad')) ?>">
-                  <p class="{{opcion5}}" >Vendo mi Propiedad</p></a>
+                  <p class="{{opcion5}} universal-font" >Vendo mi Propiedad</p></a>
               </li>
             </ul>
         </div>
