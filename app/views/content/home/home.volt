@@ -1,5 +1,5 @@
-<div class="container-fluid  app-background-home">
-	<div class="row app-background-content">
+<div class="container-fluid app-background-content app-background-home">
+	<div class="row ">
 		<div class="col-xs-12 col-sm-4 app-content">
        <h1 class="app-titulo-home-left">ASESORIA <br>FINANCIERA <br> ONLINE</h1>
        <br>

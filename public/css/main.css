@@ -784,6 +784,7 @@ html, body{
 
 .app-background-content{
 	border-bottom: 5px solid #e8a764;
+	background-color: #1b344b;
 }
 
 
@@ -912,11 +913,14 @@ html, body{
 }
 .universal-font{
     font-family: "Angsana New", "Times New Roman", Georgia;
-	font-size: medium;}
+	font-size: 1em;
+	padding-top: 5px;
+}
 
 .universal-font-bigger{
     font-family: "Angsana New", "Times New Roman", Georgia !important;
-	font-size: large !important;}
+	font-size: 1em !important;
+}
 
 
 
