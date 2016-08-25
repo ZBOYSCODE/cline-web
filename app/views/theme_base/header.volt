@@ -12,7 +12,7 @@
                     <li><a href="<?php echo $this->url->get("");?>">INICIO</a></li>
                     <li><a href="<?php echo $this->url->get("quienes-somos");?>">QUIENES SOMOS</a></li>
                     <li><a href="<?php echo $this->url->get("evaluador-online");?>">EVALUADOR ONLINE</a></li>
-                    <li><a href="<?php echo $this->url->get("registrate");?>">REGISTRATE</a></li>
+                    <li><a href="<?php echo $this->url->get("registrate");?>">REGÍSTRATE</a></li>
                     <li><a href="<?php echo $this->url->get("trabaja-con-nosotros");?>">TRABAJA CON NOSOTROS</a></li>  
                     <li><a href="<?php echo $this->url->get("trabaja-con-nosotros");?>">CONTÁCTANOS</a></li>                           
                 </ul>

@@ -23,7 +23,7 @@
                  <p>Formar un ejecutivo comercial orientado a la venta, creativo y proactivo en los negocios y conservador ante el riesgo, capaz de:</p>
                  <div class="app-edu-text">
                      <ol>
-                       <li>Entender la lógica de los negocios en base a Información Financiera y tributara de los clientes.</li>
+                       <li>Entender la lógica de los negocios en base a Información Financiera y tributaria de los clientes.</li>
                        <li>Evaluar riesgos y mitigantes de crédito a partir del cruce de datos provenientes de la Carpeta Tributaria Electrónica y los Estados Financieros.</li>
                        <li>Configurar propuestas de valor al cliente a partir de patrones lógicos de actividad.</li>
                      </ol>

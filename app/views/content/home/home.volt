@@ -1,7 +1,7 @@
 <div class="container-fluid app-background-content app-background-home">
 	<div class="row">
 		<div class="col-xs-12 col-sm-4 app-content">
-       <h1 class="app-titulo-home-left">ASESORIA FINANCIERA ONLINE</h1>
+       <h1 class="app-titulo-home-left">ASESORÍA FINANCIERA ONLINE</h1>
        <br>
        <p class="app-home-justify">Ayudamos a tomar decisiones de ahorro, financiamiento e inversión bajo condiciones de certeza económica y tributaria con riesgo financiero acotado.</p>
 		</div>

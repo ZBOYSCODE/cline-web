@@ -1,8 +1,8 @@
 <div class="container-fluid">
         <div class="row">
               <div class="col-xs-12 col-sm-4 app-edu-bottom app-right-border">
-                  <p class="app-diagnostico-bottom">Aplicamos métodos y Técnicas cuantitativas y cualitativas de analisis económico, financiero y tributario, dirigido a identificar riesgos y evaluar cómo éstos impactan en la posición de la persona y/o empresa como Sujeto Se Crédito Bancario e Industrial.</p>
-                  <p class="app-diagnostico-bottom">Para ello, usamos información económica, financiera y tributaria con un horizonte histórico y proyectado de a lo menos tres años, que nos permite identitficar patrones lógicos de negocios y establecer relaciones de cause y efecto sobre los niveles de endeudamiento, rentabilidad, liquidez y eficiencia de la empresa.</p>               
+                  <p class="app-diagnostico-bottom">Aplicamos métodos y Técnicas cuantitativas y cualitativas de análisis económico, financiero y tributario, dirigido a identificar riesgos y evaluar cómo éstos impactan en la posición de la persona y/o empresa como Sujeto De Crédito Bancario e Industrial.</p>
+                  <p class="app-diagnostico-bottom">Para ello, usamos información económica, financiera y tributaria con un horizonte histórico y proyectado de a lo menos tres años, que nos permite identificar patrones lógicos de negocios y establecer relaciones de causa y efecto sobre los niveles de endeudamiento, rentabilidad, liquidez y eficiencia de la empresa.</p>               
               </div>
               <div class="col-xs-12 col-sm-4 app-edu-bottom app-right-border">
                  <img src="<?php echo $this->url->get("").'img/asesoria/calculo.png'; ?>" class="img-responsive  app-align-center" alt=""><br>
@@ -12,7 +12,7 @@
                  <p class="app-subtitle-background">EVALUACIÓN DIAGNÓSTICA FINANCIERA</p>
                  <div>
                      <ul>
-                       <li>ANALISIS DEL CICLO DE CAJA.</li>
+                       <li>ANÁLISIS DEL CICLO DE CAJA.</li>
                        <li>ANÁLISIS DE INVERSIÓN DE TRABAJO.</li>
                        <li>INVERSIÓN DE TRABAJO/VENTAS.</li>
                        <li>PATRONES DOCUMENTARIOS.</li>
