@@ -10,7 +10,7 @@
 				<ul class="padding-quienes-ul">
 				<br>
 				<li class="app-qs-content-bottom color-quienes"><strong>MISIÓN</strong> <br><br>
-                 <strong>B</strong>rindar a las personas y empresas la oportunidad de conocer e informarse acerca de su posición crediticia, económica, financiera y tributaria antes de tomar decisiones de ahorro, crédito e inversión; contribuyendo a que puedan alcanzar nuevas metas, objetivos y desafíos de negocios, velando por el cuidado de su salud financiera y su condición de sujeto de crédito, asegurando certeza económica, financiera y tributaria bajo condiciones de riesgo financiero acotado.
+                 Brindar a las personas y empresas la oportunidad de conocer e informarse acerca de su posición crediticia, económica, financiera y tributaria antes de tomar decisiones de ahorro, crédito e inversión; contribuyendo a que puedan alcanzar nuevas metas, objetivos y desafíos de negocios, velando por el cuidado de su salud financiera y su condición de sujeto de crédito, asegurando certeza económica, financiera y tributaria bajo condiciones de riesgo financiero acotado.
                 
                  </li>
                  <br>
