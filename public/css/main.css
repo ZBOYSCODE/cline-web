@@ -67,26 +67,20 @@ html, body{
 .app-loginForm{
 	font-size: 12px;
 }
-.app-loginForm input, .app-loginForm button{
+.app-loginForm input, 
+.app-loginForm button{
 	width: 80px !important;
 	border-radius: 0!important;
 	margin-left: 5px;
-	margin-top: 10px;
-    margin-bottom: 4px !important;
-    padding: 8px;
+    padding: 6px;
+    color: #ffffff;
+    margin-top:7px;
 } 
-.app-loginForm a{
-	width: 60px !important;
-	border-radius: 0!important;
-	margin-left: 5px;
-	margin-top: 10px;
-    margin-bottom: 4px !important;
-    padding: 8px;
+.app-loginForm button{
+    background-color: #1b344b !important;
+    border:none;
 }
-.app-loginForm button, .app-loginForm a{
-  background-color: #1b344b !important;
-  color: #ffffff;
-} 
+
 
 .app-loginForm button:hover ,.app-loginForm a:hover{
   background-color: #b32d00 !important;
@@ -121,7 +115,7 @@ html, body{
 	text-align: left;
 	margin-left: 40px;
 	width: 80%;
-	font-size: 2.3em;
+	font-size: 2em;
 }
 
 
@@ -140,7 +134,7 @@ html, body{
 	color: #ffcc99;
 	font-size: 14px;
 	margin-left: 40px;
-	width: 80%;
+	width: 70%;
 	text-transform: uppercase;
 }
 
@@ -159,7 +153,6 @@ html, body{
 
 .app-home-info{
 	text-align: center;
-	background-color: #e8a764;
 	text-transform: uppercase;
 	font-style: italic;
 	font-weight: bold;
@@ -168,12 +161,12 @@ html, body{
 	font-family: "Angsana New", "Times New Roman", Georgia;
 	text-transform: uppercase;
 	color: #1b344b;
-	margin-top: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .app-home-info p > a{
 	text-decoration: none;
 	color: #1b344b;
-	
 }
 .app-home-info p a:hover{
 	color: #666666;
@@ -181,6 +174,13 @@ html, body{
 .app-home-steps{
 	margin-left: 20px !important;
 	margin-right: 20px !important;
+	border: 1px solid #3366ff;
+	margin-bottom: 50px;
+	padding: 20px 10px;
+}
+
+.app-home-steps p{
+	text-align: center;
 }
 
 .app-img-alianzas{
@@ -206,7 +206,7 @@ html, body{
 	display: table;
 	width: 5em;
 	height: 5em;
-	background-color: #1b344b;
+	background-color: #5d7291;
 	border-radius: 50%;
 }
 .home-step-circle p{
@@ -247,17 +247,17 @@ html, body{
 .app-steps-text{
 	padding-top: 15px !important;
 	padding: 5px;
-	text-align: center;
-	font-weight: bold;
+	text-align: justify;
+	font-size: 0.9em;
 }
 
 .app-steps-text ul>li{
 	padding-top: 10px;
 }
 .app-steps-text a{
-	text-decoration: none;
-	color: #1b344b;
+	color: #5d7291;
 	font-weight: bold;
+	font-style: italic;
 }
 
 .app-steps-text a:hover{
@@ -783,8 +783,6 @@ html, body{
 }
 
 .app-background-content{
-	background-color: #000033;
-	min-height: 40%;
 	border-bottom: 5px solid #e8a764;
 }
 
@@ -795,8 +793,8 @@ html, body{
 }
 
 .app-background-home{
-   background: url("../img/home/home.png") no-repeat center;
-   min-height: 40%;
+   background: url("../img/home/home-xlarge.png") no-repeat center;
+   min-height: 50%;
 }
 .container-fluid{
 	padding-left: 0 !important;

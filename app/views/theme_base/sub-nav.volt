@@ -38,7 +38,7 @@
 				<div class="form-group">
 					<input type="text" id="user" name="user"  placeholder="Usuario" class="form-control">
 					<input type="password" id="password" name="password" placeholder="Password" class="form-control">
-					<a id="enviar-form" class="btn btn-xs btn-login" href="javascript:void(0)">Ingresar</a>
+					<button id="enviar-form" href="javascript:void(0)">Ingresar</button>
 				</div>			
 			</form>
 		</div>
