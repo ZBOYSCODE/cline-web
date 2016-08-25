@@ -1,7 +1,7 @@
 (function($){
 
 	$.fn.extend({
-		renderSelect: function(objet, slc = null){
+		renderSelect:function(objet, slc = null){
 
 			var th = this;
 

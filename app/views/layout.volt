@@ -10,7 +10,11 @@
         {{ stylesheet_link('css/bootstrap.min.css') }}
         {{ stylesheet_link('css/bootstrap-theme.min.css') }}
         {{ stylesheet_link('css/font-awesome.css') }}
+        {{ stylesheet_link('css/sweetalert2.css') }}
         {{ stylesheet_link('css/main.css') }}
+        {{ stylesheet_link('fonts/font-awesome.css') }}
+       
+
 
         
     </head>
@@ -31,7 +35,12 @@
         {{ javascript_include('js/bootstrap.min.js') }}        
         {# javascript_include('js/modernizr-2.8.3.min') #}
         {{ javascript_include('js/jquery.utilidades.js') }}
-
+        {{ javascript_include('js/sweetalert2.js') }}
+        {{ javascript_include('js/trabaja.js') }}
+        {{ javascript_include('js/main.js') }}
+        {{ javascript_include('js/eskju.jquery.scrollflow.js') }}
+        {{ javascript_include('js/animatescroll.js') }}
+      
 
         {% block scripts %}{% endblock %}
     </body>

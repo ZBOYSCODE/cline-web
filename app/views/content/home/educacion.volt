@@ -9,30 +9,9 @@
  
     <div class="container-fluid app-background-content">
       <div class="row">
-            <div class="col-xs-12 col-sm-4 app-content">
-                <ul class="app-sidebar ">
-                  <li>
-                        <a href="<?php print($this->url->get('ejecutivos-bancos-iiff')) ?>">
-
-                        <p class="">Ejecutivos de bancos e IIFF</p></a>
-                  </li>
-                  <li>
-                        <a href="<?php print($this->url->get('emprendedores-gestores-negocios')) ?>">
-                        <p class="" >Emprendedores y Gestores de Negocios</p></a>
-                  </li>
-                  <li>
-                        <a href="<?php print($this->url->get('consultores-negocios-empresas')) ?>">
-                        <p class="" >Consultores de Empresas y Negocios</p></a>
-                  </li>
-                  <li>
-                        <a href="<?php print($this->url->get('industria-artes-oficios')) ?>">
-                        <p class="" >IAO-INDUSTRIA, ARTES Y OFICIOS</p></a>
-                  </li>
-                </ul>
-            </div>
-            <div class="col-xs-12 col-sm-4 app-content">
-               <p class="app-edu-justify">Brindamos formación ejecutiva en el ámbito crediticio, financiero y tributario aplicando el modelo instruccional “Aprender-Haciendo”, aunando competencias técnicas y pedagógicas avaladas por una trayectoria académica de más de 500.000 horas/participante en relatoría de cursos y programas de riesgo crediticio y negocios financieros en bancos e IIFF de todo el país,  como así también a través de programas de diplomados en alianzas con prestigiosas universidades del país.</p>
-                   <br>
+            {{ partial("theme_base/subnavs/subnaveducacion") }}
+            <div class="col-xs-12 col-sm-4 app-align-center">
+               <p class="app-edu-justify">Brindamos formación ejecutiva en el ámbito crediticio, financiero y tributario aplicando el modelo instruccional “Aprender-Haciendo”, aunando competencias técnicas y pedagógicas avaladas por una trayectoria académica de más de 500.000 horas/participante en relatoría de cursos y programas de riesgo crediticio y negocios financieros en bancos e IIFF de todo el país,  como así también a través de programas de diplomados en alianzas con prestigiosas universidades del país.</p>             
                <img src="<?php echo $this->url->get("").'img/educacion/Imagen3.png'; ?>" class="app-img-edu-logo" alt="">
             </div>
             <div class="col-xs-12 col-sm-4 app-content">
@@ -40,8 +19,32 @@
             </div>
       </div>
     </div>
+    <div class="container-fluid">
+      <div class="row">
+            <div class="col-xs-12 col-sm-6 app-edu-content">
+              <p><b>EF-CREDLINE</b> entrena en el uso de herramientas técnicas y metodologías de análisis crediticio y financiero, potenciando capacidades y habilidades analíticas y decisionales, que permitan actuar como un profesional competente, autónomo y generador de valor en cualquier institución financiera o empresa comercial e indistrial que busca alcanzar resultados económicos y financieros exitosos.</p>
+              <div class="app-edu-text">
+                  <ul>
+                    <li>Somos especialistas en gestión crediticia y negocios financieros.</li>
+                    <li>Nuestros cursos, talleres y programas están diseñados para satisfacer necesidades profesionales específicas.</li>
+                  </ul>
+              </div>  
+            </div>
+            <div class="col-xs-12 col-sm-6 app-edu-content">
+              <b>EQUIPO DE FACILITADORES</b><br><br><p>Más de 120 expertos con perfil específico conforman nuestro staff de especialistas:</p>
+              <div class="app-edu-text">
+                  <ul>
+                    <li>Destacada trayectoria profesional.</li>
+                    <li>Empresarios y directivos exitosos en el área de negocios.</li>
+                    <li>Consultores de reconocido prestigio.</li>
+                    <li>Preparación académica actualizada, basada en la práctica.</li>
+                    <li>Capaces de alinear las necesidades del alumno con el uso de nuestra plataforma tecnológica <b>Credline.</b></li>
+                  </ul>
+              </div>  
+            </div>       
+      </div>
+    </div>
     
-    {{ partial("content/educacionFinanciera/contenidoRepetidoEdu") }}
    
 
 {% endblock %}

@@ -25,7 +25,6 @@
 <div class="col-xs-12 col-sm-4 app-content">
                 <ul class="app-sidebar">
                     <li>
-                              
                           <a href="<?php print($this->url->get('diagnostico-financiero')) ?>">
                           <p class="{{opcion1}}">Diagnóstico Financiero</p></a>
                     </li>
@@ -39,7 +38,7 @@
                     </li>
                     <li>
                           <a href="<?php print($this->url->get('emprendimiento-nuevos-negocios')) ?>">
-                          <p class="{{opcion4}}">Gestión de Activos y Portafolios</p></a>
+                          <p class="{{opcion4}}">Emprendimiento y Nuevos Negocios</p></a>
                     </li>
                 </ul>
       </div> 

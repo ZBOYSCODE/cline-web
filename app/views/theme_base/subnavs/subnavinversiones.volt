@@ -39,7 +39,7 @@
              </li>
              <li>
                   <a href="<?php print($this->url->get('locales-oficinas')) ?>">
-                  <p class="{{opcion4}}" >Oficinas & locales</p></a>
+                  <p class="{{opcion4}}" >Oficinas y locales</p></a>
               </li>
               <li>
                   <a href="<?php print($this->url->get('vender-propiedad')) ?>">

@@ -1,83 +1,47 @@
 <div class="container-fluid">
         <div class="row">
-              <div class="col-xs-12 col-sm-3 app-content">
-                 <img src="<?php echo $this->url->get("").'img/educacion/Imagen2.jpg'; ?>" class="app-img-edu-bottom" alt="">
-                 <div class="app-edu-cursos">
-                       <a href="#">Cursos y Programas Permanentes</a>
-                 </div>
+              <div class="col-xs-12 col-sm-4 app-edu-bottom app-right-border">
+                  <b>APRENDER Y APLICAR... PARA DECIDIR MEJOR!</b>
+                  <div class="row">
+                  <br>
+                      <div class="col-xs-12 col-sm-5">
+                         <img src="<?php echo $this->url->get("").'img/educacion/horses.png'; ?>" class="app-img-edu-bottom" alt="">
+                      </div>
+                      <div class="col-xs-12 col-sm-7">
+                         <div class="app-edu-text app-ul-left">
+                             <ul>
+                               <li>Aplicación e incorpopración del conocimiento al trabajo diario del ejecutivo en su puesto de trabajo.</li>
+                               <li>Negocios agustados a patrones lógicos de actividad.</li>
+                               <li>Conocimientos y buenas prácticas de crédito y análisis de riesgo.</li>
+                             </ul>
+                         </div> 
+                      </div>               
+                  </div>                
               </div>
-              <div class="col-xs-12 col-sm-7 app-content">
-                <table class="table table-head-top table-planes">
-                    <thead>
-                      <tr >
-                        <th >Áreas Temáticas</th>
-                        <th>Cursos Permanentes</th>
-                        <th>Prog. de Formación para no Especialistas</th>
-                        <th>Prog. de Formación para Ejecutivos de Bancos e IIFF</th>
-                      </tr>
-                    </thead>
-                    <tbody class="align-left">
-                      <tr>
-                        <th scope="row">Análisis de Créditos y Negocios Financieros</th>
-                        <td >Análisis Crediticio de Declaraciones de Impuestos – Empresas PYME <br/>
-                        <br/>
-                            Análisis Crediticio de Declaraciones de Impuestos – Empresas Personas Naturales<br/><br/>
-                            Depuración y vaciado de Balances Tributarios <br/><br/>
-                            Análisis de Riesgo a empresas y negocios PYME <br/><br/>
-                            Análisis financiero aplicado a empresas y negocios Pyme 
-                        </td>
-                       
-                        <td><input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/>
-                        </td>
-                        <td><input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/>
-                        </td>
-
-                      </tr>
-                      <tr>
-                        <th scope="row">Talleres Financieros</th>
-                        <td>Uso de Calculadora Financiera HP12C</td>
-                        <td><input  type="checkbox"/></td>
-                        <td><input  type="checkbox"/></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Matemáticas Financieras y Estadísticas Aplicadas</th>
-                        <td>Matemática Financiera <br/><br/>
-                            Estadística Descriptiva <br/><br/>
-                            Evaluación de Proyectos
-                        </td>
-                        <td><input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/></td>
-                        <td><input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/></td>
-                      </tr>
-                      <tr>
-                          <th scope="row">Tributación Aplicada</th>
-                            <td>Franquicia Tributaria a las Personas naturales <br/><br/>
-                            Franquicia Tributaria a las Personas Jurídicas
-                            </td>
-                        <td><input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/></td>
-                        <td><input  type="checkbox"/><br/><br/>
-                            <input  type="checkbox"/></td>
-                      </tr>
-                    </tbody>
-                  </table>
+              <div class="col-xs-12 col-sm-4 app-edu-bottom app-right-border">
+                 <p class="app-subtitle">PROPÓSITOS</p>
+                 <p>Formar un ejecutivo comercial orientado a la venta, creativo y proactivo en los negocios y conservador ante el riesgo, capaz de:</p>
+                 <div class="app-edu-text">
+                     <ol>
+                       <li>Entender la lógica de los negocios en base a Información Financiera y tributara de los clientes.</li>
+                       <li>Evaluar riesgos y mitigantes de crédito a partir del cruce de datos provenientes de la Carpeta Tributaria Electrónica y los Estados Financieros.</li>
+                       <li>Configurar propuestas de valor al cliente a partir de patrones lógicos de actividad.</li>
+                     </ol>
+                 </div> 
               </div>
-              <div class="col-xs-12 col-sm-2 app-content">
-                 <div class="app-edu-matricula">
-                       <a href="#">Inscripciones y Matricúlate Aquí</a>
-                 </div>
+              <div class="col-xs-12 col-sm-4 app-edu-bottom">
+                 <b>UNIDADES TEMÁTICAS</b>
+                 <div class="app-edu-text">
+                     <ul>
+                       <li>Mercado del crédito en Chile.</li>
+                       <li>Productos y Servicios Financieros.</li>
+                       <li>Lógicas de Crédito.</li>
+                       <li>Depuración y vaciado de balances.</li>
+                       <li>Análisis crediticio de declaciones de Impuestos.</li>
+                       <li>Análisis de riesgo Banca Pyme/Personas.</li>
+                       <li>Configuración de Negocios.</li>
+                     </ul>
+                 </div> 
               </div>
         </div>
-         <br><br><br>
-    </div>
+</div>

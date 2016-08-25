@@ -8,36 +8,35 @@
 		<div class="col-xs-12 col-sm-4 app-content">
 		</div>
 		<div class="col-xs-12 col-sm-4 app-content">
-		   <h1 class="app-titulo-home-right pull-right">¿SOY SUJETO DE CRÉDITO? …¿SUJETO DE CONFIANZA ?
-</h1>
+		   <h1 class="app-titulo-home-right pull-right">“Velamos por el cuidado de tu salud financiera y condición permanente como Sujeto de Crédito.”</h1>
 		</div>
 	</div>
 </div>
 <div class="container-fluid app-home-info">
-   <p><a href="">REGÍSTRATE</a>,  Carga tu carpeta tributaria  y obtén en sólo segundos  tu informe credline  de registro financiero.</p>
+   <p>En sólo 3 pasos <a href="">REGÍSTRATE</a>,  Carga tu carpeta tributaria  y obtén tu informe credline  de riesgo financiero.</p>
 </div>
-<div class="container-fluid app-home-steps">
-    <div class="row">
-    <br>
-          <div class="col-xs-12 col-sm-2 col-sm-offset-1 app-content">
-             <div class="home-step-title">Paso 1. <br>Registrate</div>
-             <img src="<?php echo $this->url->get("").'img/home/registro.png'; ?>" class="app-img-steps" alt="">            
+<div class="container-fluid">
+    <div class="row app-home-steps">
+          <div class="col-xs-12 col-sm-4 app-content">
+              <div class="home-step-circle"><p>Paso 1</p></div>
+              <div class="app-steps-text app-align-center">
+                  <p>Regístrate en nuestro sistema "Evaluador Online".</p>
+                  <p>Personaliza tu Password e Inicia Sesión.</p>
+              </div>        
           </div>
-          <div class="col-xs-12 col-sm-2 app-content">
-             <div class="home-step-title">Paso 2. <br>Ingresa Tus Datos</div>
-             <img src="<?php echo $this->url->get("").'img/home/datos.png'; ?>" class="app-img-steps" alt="">            
+          <div class="col-xs-12 col-sm-4 app-content">
+              <div class="home-step-circle"><p>Paso 2</p></div>
+              <div class="app-steps-text app-align-center">
+                  <p>Carga tu Carpeta Tributaria Electrónica Personal en nuestra Plataforma Online. Si eres empresario, carga la Carpeta Tributaria Electrónica y últimos Balances Tributarios de tu empresa y accede al Informe de Evaluación Financiera y Tributaria e Identifica Oportunidades de Negocios e Inversión</p>
+              </div>          
           </div>
-          <div class="col-xs-12 col-sm-2 app-content">
-             <div class="home-step-title">Paso 3. <br>Conoce Tu Realidad</div>
-             <img src="<?php echo $this->url->get("").'img/home/realidad.png'; ?>" class="app-img-steps" alt="">            
+          <div class="col-xs-12 col-sm-4 app-content">
+              <div class="home-step-circle"><p>Paso 3</p></div>
+              <div class="app-steps-text app-align-center">
+                  <p>Visualiza y conoce tu realidad económica, financiera y tributaria e Identifica Oportunidades de Negocios e Ineversión.</p>
+                  <p><a href="#">VER EJEMPLO</a></p>
+              </div>            
           </div>
-          <div class="col-xs-12 col-sm-2 app-content">
-             <div class="home-step-title">Paso 4. <br>Descubre Oportunidades</div>
-             <img src="<?php echo $this->url->get("").'img/home/oportunidades.png'; ?>" class="app-img-steps" alt="">            
-          </div>
-          <div class="col-xs-12 col-sm-2 app-content">
-             <div class="home-step-title">Paso 5. <br>Toma Decisiones</div>
-             <img src="<?php echo $this->url->get("").'img/home/decisiones.png'; ?>" class="app-img-steps" alt="">             
-          </div>
+          
     </div>
 </div>

@@ -8,6 +8,7 @@ html, body{
 	height: 50px;
 	margin-left: 10px;
 	padding: 3px;
+	margin-top: 3px;
 }
 
 .app-navbar{
@@ -16,31 +17,32 @@ html, body{
     width: 100%;
     padding-left:30px;
     padding-right:30px;
+    border-bottom: 5px solid #e8a764;
 }
 .app-nav>li>a{
-	color:#ffffff;	 
+	color:#ffcc99;	 
 	padding-top: 20px;
 	font-size: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
-.app-login{
-	font-size: 8px;
-	padding-top: 15px;
-}
+
+
 .app-nav >li >a >i{
 	color: white;
-	font-weight: bold; 
+	font-weight: bold; 	
 }
 .app-nav>li>a:hover{
-	background-color: #ffcc99;
+	background-color: #e8a764;
 	color: #1b344b;
 	font-weight: bold;
 }
 .app-submenu-home{
+	background-color: #f2f2f2;
 	text-align: center;
 	font-size: 12px;
 	margin:0 auto;
+	border-bottom: 5px solid #e8a764;
 }
 
 .app-submenu-home p:hover{
@@ -58,9 +60,30 @@ html, body{
   color: white;
   text-align: center;
   margin-left: 3px;
-  margin: 10px auto;
-  
+  margin-top: 10px;
+  margin-bottom: 4px !important;
 }
+
+.app-loginForm{
+	font-size: 12px;
+}
+.app-loginForm input, button{
+	width: 100px !important;
+	border-radius: 0!important;
+	margin-left: 5px;
+	margin-top: 10px;
+    margin-bottom: 4px !important;
+    padding: 8px;
+} 
+.app-loginForm button{
+  background-color: #1b344b !important;
+  color: #ffffff;
+} 
+
+.app-loginForm button:hover{
+  background-color: #b32d00 !important;
+  color: #ffffff;
+} 
 .app-layout{
 	width: 100%;
 	padding-top: 55px; 
@@ -74,91 +97,290 @@ html, body{
 	height: 60%;
 }
 
+.app-full-section{
+	min-height: 100% !important;
+}
+
+.app-full-section2{
+	min-height: 100% !important;
+	background-color: #1b344b;
+	color: white;
+}
+
 .app-titulo-home-left{
 	font-family: "Angsana New", "Times New Roman", Georgia;
 	color: #ffcc99;
 	text-align: left;
 	margin-left: 40px;
 	width: 80%;
-	font-size: 2.5em;
+	font-size: 2.3em;
 }
+
 
 .app-titulo-home-right{
 	font-family: "Angsana New", "Times New Roman", Georgia;
 	color: #ffcc99;
 	text-align: right;
 	margin-right: 40px;
-	margin-top: 40px;
 	width: 80%;
-	font-size: 2.5em;
+	font-size: 2.3em;
+	font-style: italic;
 }
 .app-home-justify{
+	font-family: "Angsana New", "Times New Roman", Georgia;
 	text-align: justify;
 	color: #ffcc99;
 	font-size: 14px;
 	margin-left: 40px;
 	width: 80%;
+	text-transform: uppercase;
 }
+
+.app-align-center{
+	margin: 0 auto;
+	text-align: center;
+
+}
+.app-diagnostico-bottom{
+	text-transform: uppercase;
+	padding-top: 10px;
+	font-family: "Angsana New", "Times New Roman", Georgia;
+	text-align: justify;
+	line-height: 22px;
+}
+
 .app-home-info{
 	text-align: center;
-	background-color: #ffe6cc;
+	background-color: #e8a764;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
 }
 .app-home-info p{
 	font-family: "Angsana New", "Times New Roman", Georgia;
 	text-transform: uppercase;
-	font-weight: bold;
-	color: #666666;
+	color: #1b344b;
 	margin-top: 10px;
 }
-.app-home-info p a{
+.app-home-info p > a{
 	text-decoration: none;
 	color: #1b344b;
+	
 }
 .app-home-info p a:hover{
 	color: #666666;
 }
 .app-home-steps{
-	background-color: #ccddff;
-	padding-bottom: 30px;
+	margin-left: 20px !important;
+	margin-right: 20px !important;
 }
-.app-img-steps{
-	width: 90%;
-	height: 120px;
-}
+
 .app-img-alianzas{
-	width: 150px;
-	height: 150px;
+	width: 50px;
+	height: 50px;
 	border: 1px solid #1b344b;
 	border-radius: 3px;
 }
 
-.home-step-title{
-	margin:0 auto;
-	font-family: "Angsana New", "Times New Roman", Georgia;
-	background-color: #1b344b;
-	width: 90%;
-	color: white;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 10px;
-	padding: 4px;
+.app-img-departamentos{
+	width: 100px;
+	height: 130px;
+	border: 1px solid #1b344b;
+	border-radius: 3px;
 }
+
+.app-img-step3{
+	width:90%;
+}
+
+.home-step-circle{
+	margin: 0 auto;
+	display: table;
+	width: 5em;
+	height: 5em;
+	background-color: #1b344b;
+	border-radius: 50%;
+}
+.home-step-circle p{
+   padding-top:5%;
+   display: table-cell;
+   vertical-align: middle;
+   color: white;
+   font-size: 1em;
+   font-weight: bold;
+}
+.home-step-circle:hover{
+   background-color: #b32d00 !important;
+   color: #ffffff;
+}
+
+.home-step-circle2{
+	margin: 0 auto;
+	display: table;
+	width: 8em;
+	height: 8em;
+	background-color: #b32d00;
+	border-radius: 50%;
+	text-decoration: none !important;
+}
+.home-step-circle2 p{
+   padding-top:5%;
+   display: table-cell;
+   vertical-align: middle;
+   color: white;
+   font-size: 1.3em;
+   font-weight: bold;
+
+}
+.home-step-circle2:hover{
+   background-color: #1b344b !important;
+   color: #ffffff;
+}
+.app-steps-text{
+	padding-top: 15px !important;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.app-steps-text ul>li{
+	padding-top: 10px;
+}
+.app-steps-text a{
+	text-decoration: none;
+	color: #1b344b;
+	font-weight: bold;
+}
+
+.app-steps-text a:hover{
+	color: #b32d00;
+}
+ 
+.app-steps-text2{
+	padding-top: 25px !important;
+	padding: 5px;
+	text-align: center;
+}
+
+
+.app-steps-text2 ul>li{
+	padding-top: 10px;
+}
+
+.app-steps-text2 a{
+	text-decoration: none;
+	color: #1b344b;
+	font-weight: bold;
+}
+
+.app-steps-text2 a:hover{
+	color: #b32d00;
+}
+
+.app-steps-border{
+  padding: 20px;
+  background-color: #e0e0d1;
+  border-radius: 3px; 
+  color: #1b344b;
+  font-weight: bold;
+}
+
 .app-content{
 	padding: 20px;
-	padding-top: 30px;
+	padding-top: 23px;
 	text-align: center;
+}
+
+.app-content-step3{
+   padding: 20px;
+   padding-top: 25px;
+}
+.app-content-step3 b{
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+.app-content-step3 p{
+	text-align: justify;
+	padding-top: 15px;
+	font-size: 1.2em;
+}
+.app-content-step3 img{
+	margin:0 auto;
 }
 
 .app-content-img img{
 	margin-top: 15px;
-
-
+	margin-bottom: 15px;
 }
 
 .app-edu-justify{
+   font-family: "Angsana New", "Times New Roman", Georgia;
    text-align: justify;
    color: #ffcc99;
    font-size: 12px;
+   text-transform: uppercase;
+   padding-top: 30px;
+}
+.app-edu-text{
+	padding-left: 15px;
+}
+.app-ase-text p{
+	padding: 13px 8px;
+}
+
+.app-ase-text .app-subtitle-background{
+	margin-top: 7px;
+	text-align: center;
+}
+.app-subtitle-background{
+	font-family: "Angsana New", "Times New Roman", Georgia;
+	padding:7px !important;
+    background-color: #999999;
+    width: 100% !important;
+    color:white;
+}
+.app-ase-text ul{
+	padding: 10px 15px !important;
+
+}
+.app-italic{
+	font-style: italic;
+}
+.app-edu-text ol{
+	padding-left: 0px;
+}
+
+.app-edu-content{
+	font-family: "Angsana New", "Times New Roman", Georgia;
+	padding: 20px 30px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	text-align: justify;
+	border-right: 2px solid black;
+	text-transform: uppercase;
+}
+.app-edu-bottom{
+	margin-top: 15px;
+	padding:5px 25px;
+}
+.app-edu-bottom ul{
+	padding-left: 0;
+	margin-top: 10px;
+}
+.app-edu-bottom ul>li{
+	margin-top: 5px;
+}
+
+.app-ul-left ul>li{
+   margin-top: 12px;
+}
+.app-subtitle{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.app-right-border{
+	border-right: 2px solid black;
 }
 .app-edu-border{
 	font-family: "Angsana New", "Times New Roman", Georgia;
@@ -167,7 +389,7 @@ html, body{
 	font-size: 24px;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 10px;
+	padding: 15px;
 }
 .app-edu-border ul{
     margin-top: 20px;
@@ -193,16 +415,42 @@ html, body{
     width: 100%;
 }
 
+.app-btn-oportunidades{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.app-btn-oportunidades p{	
+	padding: 7px 0;
+	background-color: #1b344b;
+	text-align: center;
+	width: 300px;
+	margin:0 auto;
+}
+
+.app-btn-oportunidades a{
+	font-weight: bold;
+	font-size: 12px;
+    text-transform: uppercase;	
+	color: white;		
+	text-decoration: none;
+}
+
+.app-btn-oportunidades p:hover{
+	background-color: #b32d00;
+}
+
 .app-sidebar{
 	margin-top: 15px;
 	list-style:none;
+	padding-left: 15px;
 }
 .app-sidebar p{
 	padding: 7px 0;
-	width: 90%;
+	width: 75%;
 	background-color: #737373;
 	text-align: center;
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 }
 .app-sidebar p:hover{
 	background-color: #b32d00;
@@ -210,11 +458,11 @@ html, body{
 
 .app-sidebar p.active{
 	background-color: #b32d00;
-
-
 }
 
-
+.app-submenu-home p.active{
+	background-color: #b32d00;
+}
 
 .app-sidebar li a{
 	font-weight: bold;
@@ -223,18 +471,33 @@ html, body{
 	color: white;		
 	text-decoration: none;
 }
+.app-images-top{
+   padding-top: 20px !important;
+   width: 90%;
+}
+.app-img-ase-top{
+	width: 90%;
+}
+.app-img-ase-bottom{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 0;
+}
 .app-img-vivienda{
-	width: 100%;
+	width: 80%;
 }
 .app-img-edu-logo{
-   width: 250px;
+   width: 220px;
    margin: 0 auto;
+   margin-top: 5px;
+   margin-bottom: 10px;
 }
 .app-img-edu-top{
 	width: 80%;
 }
 .app-img-edu-bottom{
-	width: 95%;
+	margin-top: 15px;
+	width: 100%;
 }
 .app-edu-matricula{
 	width: 95%;
@@ -283,6 +546,16 @@ html, body{
    color: white;
    font-weight: bold;
 }
+.app-step-title{
+	margin-top: 30px;
+   background-color: #5d7291;
+   padding: 8px;
+   padding-left: 15px;
+   margin-left: 15px;
+   width: 500px;
+   color: white;
+   font-weight: bold;
+}
 .app-qs-content{
 	text-align: justify;
 	padding-left: 15px;
@@ -294,21 +567,27 @@ html, body{
    text-align: left;
 }
 
+.app-img-qs{
+  margin-top: 60px;
+  width: 70%;
+}
+
 .app-inv-dropdown{
 	margin: 0 auto;
 	background-color: #5d7291;
 }
 .app-inv-dropdown select{
 	margin: 8px;
-	font-size: 14px;
-	height: 30px;
+	font-size: 10px;
+	height: 25px;
 	width: 80%;
+	border-radius: 0 !important;
 }
 
 .app-filter-content{
 	text-align: center;
 	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-bottom: 20px;
 }
 
 
@@ -317,6 +596,169 @@ html, body{
 	text-transform: uppercase;
 	padding-top: 8px;
 }
+
+.app-row-nac{
+	padding-left: 0 !important;
+	padding-right: 5px !important;
+}
+
+.app-padding-section{
+	padding: 50px 15px 80px 15px;
+}
+.app-registro-form input, select, textarea{
+	border-radius: 0 !important;
+}
+
+.app-registro-form input[type='radio']{
+
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  margin-right: 15px; 
+}
+
+.app-registro-form select{
+	padding-left: 0 !important;
+}
+.app-btn-registro{
+	width: 200px !important;
+	background-color:  #b32d00;
+	margin: 50px 0 20px 0;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase; 
+}
+
+.app-btn-registro:hover{
+	background-color:  #999999;
+	color: white;
+	font-weight: bold;
+}
+
+.app-btn-nuevaEmpresa{
+	width: 100px !important;
+	background-color:  #009900;
+	margin-left: 15px !important;
+	color: white;
+	font-weight: bold;
+}
+
+.app-btn-nuevaEmpresa:hover{
+	background-color:  #999999;
+}
+.app-btn-nuevaEmpresa:active,
+.app-btn-nuevaEmpresa:focus{
+	background-color:  #009900;
+	color: white;
+	font-weight: bold;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.app-pills-align{
+	clear: both;
+	float:left;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	margin-top:3%;
+	margin-bottom: 3%;
+}
+.app-pills{
+	float: left;
+	left:30%;
+	list-style-type: none;
+	position: relative;
+}
+.app-pills li{
+	padding: 0 10px;
+	font-weight: bold;
+}
+.app-pills li a{
+	border-radius: 0 !important;
+	color: #1b344b !important;
+}
+.app-pills span{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.app-pills > li.active > a,
+.app-pills > li.active > a:hover,
+.app-pills > li.active > a:focus {
+	color: white !important;
+	background-color: #b32d00;
+}
+
+.app-paso2-content{
+	padding: 50px 0;
+}
+.app-tabpane-title{
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.app-tabpane-content{
+	padding: 10px;
+}
+.app-caja-paso2 ul>li{
+   color: #1b344b;
+   font-size: 1em !important;
+   text-align: left;
+}
+
+.app-tab-pane{
+	width: 80%;
+	margin:0 auto;
+}
+
+.app-caja-paso2{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #e0e0d1;
+	color: #1b344b;
+	border-radius: 3px;
+	padding: 30px 30px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.app-caja-paso2 p{
+	font-size: 1.5em;
+	margin: 15px 0;
+}
+.app-fa-step{
+   font-size: 4em !important;
+   margin: 18px;
+}
+
+.scrollTop{
+	display: none;
+	background-color: #b32d00;
+	height: 40px;
+	width: 40px;
+	font-size: 2em;
+	position: fixed;
+	bottom: 70px;
+	right: 50px;
+	text-align: center;
+	text-decoration: none;
+	z-index: 9999;
+	color: white;
+}
+
+.scrollTop:hover ,.scrollTop:focus{
+	background-color: #e0e0d1;
+}
+
+#trabaja-Form legend{
+   color: white;
+   font-weight: bold;
+   font-size: 1.3em;
+   padding-left: 15px;
+}
+
 .app-footer{
 	width: 100%;
 	height: 50px;
@@ -329,13 +771,15 @@ html, body{
 	font-size: 12px;
 	bottom: 0;
 	position: fixed;
+	font-style: italic;
 }
 
 .app-background-content{
 	background-color: #000033;
-	min-height: 300px;
-	
+	min-height: 40%;
+	border-bottom: 5px solid #e8a764;
 }
+
 
 .app-background-content .row{
 	margin-right: 0;
@@ -344,6 +788,7 @@ html, body{
 
 .app-background-home{
    background: url("../img/home/home.png") no-repeat center;
+   min-height: 40%;
 }
 .container-fluid{
 	padding-left: 0 !important;
@@ -368,9 +813,9 @@ html, body{
 	text-decoration: none;
 }
 .img-alianza a img{
-	margin: 0 auto;
-   width: 270px;
-   height: 220px;
+   margin: 0 auto;
+   width: 110px;
+   height: 80px;
 }
 
 .img-alianza a img:hover{
@@ -395,6 +840,7 @@ html, body{
 
 .little-title{
 	font-weight: bolder;
+	font-family: "Angsana New", "Times New Roman", Georgia;
 
 }
 .little-title2{

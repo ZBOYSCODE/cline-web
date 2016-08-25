@@ -12,10 +12,6 @@ class IndexController extends ControllerBase
         $this->view->pick("content/quienessomos/index");
     }
 
-    public function alianzasAction(){
-    	$this->view->pick("content/alianzas/index");
-    }
-
     public function evaluadorAction(){
         $this->view->pick("content/evaluador/index");
     }
@@ -32,12 +28,15 @@ class IndexController extends ControllerBase
     	$this->view->pick("content/trabaja/index");
     }
     public function educacionfinancieraAction(){
+        $this->view->setVar("subNav", "opcion1"); 
         $this->view->pick("content/home/educacion");
     }
     public function asesoriafinancieraAction(){
+        $this->view->setVar("subNav", "opcion2");   
         $this->view->pick("content/home/asesoria");
     }
     public function inversionesAction(){
+        $this->view->setVar("subNav", "opcion3");   
         $this->view->pick("content/home/inversiones");
     }
     
