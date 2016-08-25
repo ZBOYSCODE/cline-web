@@ -56,12 +56,12 @@ html, body{
 .app-submenu-home p{
   width: 100%;
   background-color: #1b344b;
-  padding: 8px;
   color: white;
   text-align: center;
   margin-left: 3px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 4px !important;
+  height: 25px;
 }
 
 .app-loginForm{
@@ -454,7 +454,7 @@ html, body{
 	padding-left: 15px;
 }
 .app-sidebar p{
-	padding: 7px 0;
+	padding: 5px 0;
 	width: 75%;
 	background-color: #737373;
 	text-align: center;
