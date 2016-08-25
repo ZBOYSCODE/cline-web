@@ -34,13 +34,15 @@
         {{ javascript_include('js/jquery-2.2.0.min.js') }}
         {{ javascript_include('js/bootstrap.min.js') }}        
         {# javascript_include('js/modernizr-2.8.3.min') #}
+        {{ javascript_include('js/jquery.bootstrap-growl.js') }}
         {{ javascript_include('js/jquery.utilidades.js') }}
         {{ javascript_include('js/sweetalert2.js') }}
         {{ javascript_include('js/trabaja.js') }}
         {{ javascript_include('js/main.js') }}
         {{ javascript_include('js/eskju.jquery.scrollflow.js') }}
         {{ javascript_include('js/animatescroll.js') }}
-      
+        {{ javascript_include('js/pages/credline-login.js') }}
+
 
         {% block scripts %}{% endblock %}
     </body>

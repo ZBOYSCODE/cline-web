@@ -32,15 +32,14 @@
 		    </div>		
 		</div>		
 		<div class="col-xs-12 col-md-3">
-			<form id="loginForm" class="app-loginForm form-inline">
-			  <div class="form-group">
-			    <input type="text" class="form-control" id="usuario" placeholder="Usuario">
-			  </div>
-			  <div class="form-group">
-			    <input type="password" class="form-control" id="password"
-			    placeholder="Password">
-			  </div>
-			  <button id="btn-Login" type="button" class="btn">Ingresar</button>
+
+
+			<form id="loginForm" method="post" action="<?php print $this->url->get('session/login')?>" class="app-loginForm form-inline">
+				<div class="form-group">
+					<input type="text" id="user" name="user"  placeholder="Usuario" class="form-control">
+					<input type="password" id="password" name="password" placeholder="Password" class="form-control">
+					<a id="enviar-form" class="btn btn-xs btn-login" href="javascript:void(0)">Ingresar</a>
+				</div>			
 			</form>
 		</div>
 	</div>

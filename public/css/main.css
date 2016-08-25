@@ -67,7 +67,7 @@ html, body{
 .app-loginForm{
 	font-size: 12px;
 }
-.app-loginForm input, button{
+.app-loginForm input, .app-loginForm button,.app-loginForm a{
 	width: 100px !important;
 	border-radius: 0!important;
 	margin-left: 5px;
@@ -75,12 +75,12 @@ html, body{
     margin-bottom: 4px !important;
     padding: 8px;
 } 
-.app-loginForm button{
+.app-loginForm button, .app-loginForm a{
   background-color: #1b344b !important;
   color: #ffffff;
 } 
 
-.app-loginForm button:hover{
+.app-loginForm button:hover ,.app-loginForm a:hover{
   background-color: #b32d00 !important;
   color: #ffffff;
 } 
@@ -865,16 +865,24 @@ html, body{
 .table-planes>thead>tr{
 	background-color: #788BA8;
 	color: white;
-
-
 }
 
 .table-planes>tbody>tr{
 	background-color: #D6DCE5;
 	color: black;
+}
 
+.login-form .btn-login {
+	font-size: 10px;
+	margin-bottom: 3px;
+}
 
-
+.login-form input{
+	display: inline;
+	font-size: 12px;
+	width: 100px;
+	height: 20px;
+	margin-right: 4px;
 }
 
 
