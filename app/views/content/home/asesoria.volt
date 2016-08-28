@@ -7,16 +7,18 @@
  
     <div class="container-fluid app-background-content">
         <div class="row">
-              {{ partial("theme_base/subnavs/subnavasesoria") }}
-
+              <!--{{ partial("theme_base/subnavs/subnavasesoria") }}-->
+              <div class="col-xs-12 col-sm-4"><br><br>
+                    <h1 class="app-titulo-home-left pull-left">¿SOY SUJETO DE CRÉDITO?
+                     </h1>
+              </div>
               <div class="col-xs-12 col-sm-4 app-content-img" >
                   <img src="<?php echo $this->url->get("").'img/asesoria/brujula.png'; ?>" class="img-responsive app-img-ase-top" alt="">   
               </div>
               					
-          		<div class="col-xs-12 col-sm-4">
-            				<h1 class="app-titulo-home-right pull-right">¿SOY SUJETO DE CRÉDITO? …¿SUJETO DE CONFIANZA ?
-  					         </h1>
-            				<img  src="<?php echo $this->url->get("").'img/asesoria/barra.png'; ?>" class="img-responsive app-images-top" alt="">
+          		<div class="col-xs-12 col-sm-4"><br><br>
+            				<h1 class="app-titulo-home-left pull-right">¿SUJETO DE CONFIANZA?
+  					         </h1>           				
               </div>
        	</div>		
     </div>

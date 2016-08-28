@@ -37,6 +37,11 @@
 	    'action' => 'registrate'
 	));
 
+    $router->add('/contacto', array(
+        'controller' => 'index',
+        'action' => 'contacto'
+    ));
+
 	$router->add('/trabaja-con-nosotros', array(
 	    'controller' => 'index',
 	    'action' => 'trabaja'

@@ -9,29 +9,28 @@
 	  			<div class="col-xs-12 col-sm-12">
 	  			<div class="app-qs-title">EVALUADOR ONLINE</div><br><br>
 	  				<p class="app-qs-content-bottom">
-	                   El Evaluador Online es una solución tecnológica de gestión y análisis multidimensional de datos económicos, financieros y tributarios, que aplica procesos de captura, almacenamiento, decodificación y análisis crediticio de declaraciones de impuestos y estados de situación financiera, asociando y aplicando fórmulas, algoritmos y motores de reglas que, en definitiva, permitan identificar y asociar patrones lógicos de actividad e ingresos con productos y servicios financieros de crédito, financiamiento e inversión.    El Evaluador Online es fácil de usar….!   En solo 3  pasos podrás acceder a información de alto valor agregado relativa a tu posición crediticia, económica, financiera y tributaria y un completo informe de oportunidades de negocios e inversión.
-	                   </p><br><br>
+	                   <!--El Evaluador Online es una solución tecnológica de gestión y análisis multidimensional de datos económicos, financieros y tributarios, que aplica procesos de captura, almacenamiento, decodificación y análisis crediticio de declaraciones de impuestos y estados de situación financiera, asociando y aplicando fórmulas, algoritmos y motores de reglas que, en definitiva, permitan identificar y asociar patrones lógicos de actividad e ingresos con productos y servicios financieros de crédito, financiamiento e inversión.    El Evaluador Online es fácil de usar….!  --> En solo 3  pasos podrás acceder a información de alto valor agregado relativa a tu posición crediticia, económica, financiera y tributaria y un completo informe de oportunidades de negocios e inversión.
+	                   </p><br>
 	  			</div>
 	  		</div>
 	  		<div class="row app-home-steps app-align-center app-steps-border">
 	  		      <div class="col-xs-12 col-sm-4">
 	  		          <a href="#Paso1" class="home-step-circle2 P1"><p>Paso 1</p></a>
 	  		          <div class="app-steps-text2 app-align-center">
-  		                  <p>Regístrate en nuestro sistema "Evaluador Online".</p>
-  		                  <p>Personaliza tu Password e Inicia Sesión.</p>
+  		                  <p>Regístrate en nuestro sistema "Evaluador Online" y Personaliza tu Password e Inicia Sesión.</p>
 	  		          </div>        
 	  		      </div>
 	  		      <div class="col-xs-12 col-sm-4">
 	  		           <a href="#Paso2" class="home-step-circle2 P2"><p>Paso 2</p></a>
 	  		          <div class="app-steps-text2 app-align-center">
-	  		                <p>Carga tu Carpeta Tributaria Electrónica Personal en nuestra Plataforma Online. Si eres empresario, carga la Carpeta Tributaria Electrónica y últimos Balances Tributarios de tu empresa y accede al Informe de Evaluación Financiera y Tributaria e Identifica Oportunidades de Negocios e Inversión</p>
+	  		                <p>Carga tu Carpeta Tributaria Electrónica Personal en nuestra Plataforma Online.</p>
 	  		          </div>          
 	  		      </div>
 	  		      <div class="col-xs-12 col-sm-4">
 	  		           <a href="#Paso3" class="home-step-circle2 P3"><p>Paso 3</p></a>
 	  		          <div class="app-steps-text2 app-align-center">
-	  		                <p>Visualiza y conoce tu realidad económica, financiera y tributaria e Identifica Oportunidades de Negocios e Ineversión.</p>
-	  		                <p><a href="#">VER EJEMPLO</a></p>
+	  		                <p>Visualiza tu realidad económica, financiera y tributaria e identifica oportunidades de inversión.</p>
+	  		                <p><a href="#Paso3" class="P3">VER EJEMPLO</a></p>
 	  		          </div>            
 	  		      </div>	  		      
 	  		</div>
@@ -151,12 +150,12 @@
 			<div  class="app-pills-align">
 				<ul class="nav nav-pills app-pills" rol="tablist">
 					<li role="presentation" class="active">
-					   <a href="#Paso1Tab" aria-controls="Paso1" role="tab" data-toggle="tab"> <p><span>1.</span> OBTENER CTE</p></a>
+					   <a href="#Paso1Tab" aria-controls="Paso1" role="tab" data-toggle="tab"> <p><span>1.</span> OBTENER &nbsp;&nbsp;CTE</p></a>
 					</li><li role="presentation">
-					   <a href="#Paso2Tab" aria-controls="Paso2" role="tab" data-toggle="tab"><p><span>2.</span> CARGAR CTE</p></a>
+					   <a href="#Paso2Tab" aria-controls="Paso2" role="tab" data-toggle="tab"><p><span>2.</span> CARGAR &nbsp;&nbsp;CTE</p></a>
 					</li>
 					<li role="presentation">
-					   <a href="#Paso3Tab" aria-controls="Paso3" role="tab" data-toggle="tab"><p><span>3.</span> PROCESAR CTE</p></a>
+					   <a href="#Paso3Tab" aria-controls="Paso3" role="tab" data-toggle="tab"><p><span>3.</span> PROCESAR &nbsp;&nbsp;CTE</p></a>
 					</li>
 				</ul>
 			</div>
@@ -217,52 +216,141 @@
 					</div>
 			    </div>
 		    </div>
+		    <div class="row app-align-center">
+		    	<a href="#Paso3" class="app-realidad P3"><span class="fa fa-arrow-down"></span>&nbsp;&nbsp;&nbsp;&nbsp;VISUALIZA TU REALIDAD&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-arrow-down"></a>
+		    </div>
 	</section>
-     
 	<section id="Paso3" class="app-full-section2 app-padding-section">
         <div class="container">
-            <div class="app-step-title">PASO 3a: VISUALIZA TU REALIDAD</div>
-            <br><br>
+            
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 app-content-step3">
+                    <b>1. ACCESO</b>
+                	<p>Módulo de análisis de las empresas (clientes) de forma individual, en donde se entregará información clara y concisa de la empresa en cuestión. Es posible ver en gráficas y tablas de valor la información económica de los clientes, con la que se podrán tomar decisiones con más certeza sin invertir demasiado tiempo, puesto que la herramienta provee una solución online e instantánea.</p>
+                </div>
+				<div class="col-xs-12 col-sm-6 app-content-step3">
+					<img src="<?php echo $this->url->get("").'img/evaluador/acceso.jpg'; ?>" class="img-responsive app-img-step3" alt="">
+				</div>
+			</div>
+			<div class="row">				
+				<div class="col-xs-12 col-sm-6 app-content-step3">
+					<img src="<?php echo $this->url->get("").'img/evaluador/2.jpg'; ?>" class="img-responsive app-img-step3" alt="">
+				</div>
+				<div class="col-xs-12 col-sm-6 app-content-step3">
+				    <b>2. DECODIFICADOR</b>
+					<p>Módulo para analizar empresas de forma separada, en donde es posible ver toda la data de las carpetas tributarias de forma útil para el usuario, siendo entendible por cualquier persona con pocos conocimientos de contabilidad. Esta Herramienta da valor al usuario final ya que en solo 3 pasos es posible tomar decisiones sobre las empresas viendo gráficas e información agregada.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 app-content-step3">
+				    <b>2. PROYECCIÓN DE RESULTADOS</b>
+					<p>Módulo de Proyección de resultados provee una potente herramienta para poder proyectar tus estados de resultados en el tiempo, definiendo parámetros de cambio en cuanto a las ventas, compras, gastos, perdidas, correcciones, etc. La herramienta arroja de forma útil la información generada en gráficas y tablas con los detalles.</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 app-content-step3">
+					<img src="<?php echo $this->url->get("").'img/evaluador/3.jpg'; ?>" class="img-responsive app-img-step3" alt="">
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 app-content-step3">
 					<img src="<?php echo $this->url->get("").'img/evaluador/1.jpg'; ?>" class="img-responsive app-img-step3" alt="">
 				</div>
 				<div class="col-xs-12 col-sm-6 app-content-step3">
-				    <b>1. BENCHMARK DE EMPRESAS</b>
+				    <b>3. BENCHMARK DE EMPRESAS</b>
 					<p>Módulo de Inteligencia de Negocios que analiza el universo total de todas las carpetas tributarias cargadas por el usuario, donde es posible filtrar y agrupar empresas en subconjuntos con cualidades similares desde el punto de vista de actividad económica, localización, ventas, compras, entre otras. Esta herramienta tiene como finalidad ver qué empresas y grupos son más viables para invertir.</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 app-content-step3">
-				    <b>2. DECODIFICADOR</b>
-					<p>Módulo para analizar empresas de forma separada, en donde es posible ver toda la data de las carpetas tributarias de forma útil para el usuario, siendo entendible por cualquier persona con pocos conocimientos de contabilidad. Esta Herramienta da valor al usuario final ya que en solo 3 pasos es posible tomar decisiones sobre las empresas viendo gráficas e información agregada.</p>
-				</div>
-				<div class="col-xs-12 col-sm-6 app-content-step3">
-					<img src="<?php echo $this->url->get("").'img/evaluador/2.jpg'; ?>" class="img-responsive app-img-step3" alt="">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 app-content-step3">
-					<img src="<?php echo $this->url->get("").'img/evaluador/3.jpg'; ?>" class="img-responsive app-img-step3" alt="">
-				</div>
-				<div class="col-xs-12 col-sm-6 app-content-step3">
-				    <b>3. PROYECCIÓN DE RESULTADOS</b>
-					<p>Módulo de Proyección de resultados provee una potente herramienta para poder proyectar tus estados de resultados en el tiempo, definiendo parámetros de cambio en cuanto a las ventas, compras, gastos, perdidas, correcciones, etc. La herramienta arroja de forma útil la información generada en gráficas y tablas con los detalles.</p>
-				</div>
-			</div>
+			
+			
         </div>
 	</section>
 	<section id="Oportunidades" class="app-full-section app-padding-section">
         <div class="container">
-            <div class="app-step-title">PASO 3b: CONOCE TUS OPORTUNIDADES</div>
+            <div class="app-step-title">CONOCE TUS OPORTUNIDADES</div>
             <br><br>
             <div class="row">
-				<div class="col-xs-12 col-sm-6 app-content-step3">
-					<img src="<?php echo $this->url->get("").'img/evaluador/Diagrama_Empresa.png'; ?>" class="img-responsive" alt="">
+				<div class="col-xs-12 col-sm-1">
+					<img src="<?php echo $this->url->get("").'img/evaluador/mapa.png'; ?>" class="img-responsive app-img-opor-map" alt="">
 				</div>
-				
-				<div class="col-xs-12 col-sm-6 app-content-step3">
-				    <img src="<?php echo $this->url->get("").'img/evaluador/Diagrama_Familia.png'; ?>" class="img-responsive" alt="">
+				<div align="center" class="col-xs-12 col-sm-3">
+				    <img src="<?php echo $this->url->get("").'img/evaluador/empresa.png'; ?>" class="img-responsive app-img-opor-header" alt="">
+				    <ul class=" nav-stacked app-sidebar app-sidebar2" rol="tablist">
+				    	<li role="presentation">
+				    	   <a href="#Emp-img1" aria-controls="Emp-img1" role="tab" data-toggle="tab"><p>Bienes de Capital<span class="fa fa-chevron-circle-right pull-right app-opor-arrowList"></span></p></a>
+				    	</li><li role="presentation">
+				    	   <a href="#Emp-img2" aria-controls="Emp-img2" role="tab" data-toggle="tab"><p>Equipamiento<span class="fa fa-chevron-circle-right pull-right app-opor-arrowList"></span></p></a>
+				    	</li>
+				    	<li role="presentation">
+				    	   <a href="#Emp-img3" aria-controls="Emp-img3" role="tab" data-toggle="tab"><p>Vehículos<span class="fa fa-chevron-circle-right pull-right app-opor-arrowList"></span></p></a>
+				    	</li>
+				    	<li role="presentation">
+				    	   <a href="#Emp-img4" aria-controls="Emp-img4" role="tab" data-toggle="tab"><p>Capital de Trabajo<span class="fa fa-chevron-circle-right pull-right app-opor-arrowList"></span></p></a>
+				    	</li>
+				    	<li role="presentation">
+				    	   <a href="#Emp-img5" aria-controls="Emp-img5" role="tab" data-toggle="tab"><p>Investigación Y Desarrollo<span class="fa fa-chevron-circle-right pull-right app-opor-arrowList"></span></p></a>
+				    	</li>
+				    	<li role="presentation">
+				    	   <a href="#Emp-img6" aria-controls="Emp-img6" role="tab" data-toggle="tab"><p>Impuestos<span class="fa fa-chevron-circle-right pull-right app-opor-arrowList"></span></p></a>
+				    	</li>
+				    	<li role="presentation">
+				    	   <a href="#Emp-img7" aria-controls="Emp-img7" role="tab" data-toggle="tab"><p>Seguros<span class="fa fa-chevron-circle-right pull-right app-opor-arrowList"></span></p></a>
+				    	</li>
+				    </ul>
+				</div>
+				<div align="center" class="col-xs-12 col-sm-4">
+				    	<div class="tab-content">
+				    		<div id="Fam-img1" class="tab-pane active">
+				    			<img src="<?php echo $this->url->get("").'img/evaluador/oportunidades/familia/bienesraices.png'; ?>" class="img-responsive app-img-opor-center" alt="">
+				    	    </div>
+				    	    <div id="Fam-img2" class="tab-pane">
+				    			<img src="<?php echo $this->url->get("").'img/evaluador/oportunidades/familia/automovil.png'; ?>" class="img-responsive app-img-opor-center" alt="">
+				    	    </div>
+				    	    <div id="Fam-img3" class="tab-pane">
+				    			<img src="<?php echo $this->url->get("").'img/evaluador/oportunidades/familia/salud.png'; ?>" class="img-responsive app-img-opor-center" alt="">
+				    	    </div>
+				    	    <div id="Fam-img4" class="tab-pane">
+				    			<img src="<?php echo $this->url->get("").'img/evaluador/oportunidades/familia/educacion.png'; ?>" class="img-responsive app-img-opor-center" alt="">
+				    	    </div>
+				    	    <div id="Fam-img5" class="tab-pane">
+				    			<img src="<?php echo $this->url->get("").'img/evaluador/oportunidades/familia/prevision.png'; ?>" class="img-responsive app-img-opor-center" alt="">
+				    	    </div>
+				    	    <div id="Fam-img6" class="tab-pane">
+				    			<img src="<?php echo $this->url->get("").'img/evaluador/oportunidades/familia/impuestos.png'; ?>" class="img-responsive app-img-opor-center" alt="">
+				    	    </div>
+				    	    <div id="Fam-img7" class="tab-pane">
+				    			<img src="<?php echo $this->url->get("").'img/evaluador/oportunidades/familia/ahorros.png'; ?>" class="img-responsive app-img-opor-center" alt="">
+				    	    </div>
+				        </div>
+				        <br>
+				        <div class="row app-align-center">
+				        	<p class="app-opor">OPORTUNIDADES</p>
+				        </div>
+				</div>
+				<div align="center" class="col-xs-12 col-sm-3">
+				    <img src="<?php echo $this->url->get("").'img/evaluador/familia.png'; ?>" class="img-responsive app-img-opor-header" alt="">
+				    <ul class=" nav-stacked app-sidebar app-sidebar2" rol="tablist">
+				    	<li role="presentation">
+				    	   <a href="#Fam-img1" aria-controls="Fam-img1" role="tab" data-toggle="tab"><p><span class="fa fa-chevron-circle-left pull-left app-opor-arrowList"></span>Bienes Raíces</p></a>
+				    	</li><li role="presentation">
+				    	   <a href="#Fam-img2" aria-controls="Fam-img2" role="tab" data-toggle="tab"><p><span class="fa fa-chevron-circle-left pull-left app-opor-arrowList"></span>Automóvil</p></a>
+				    	</li>
+				    	<li role="presentation">
+				    	   <a href="#Fam-img3" aria-controls="Fam-img3" role="tab" data-toggle="tab"><p><span class="fa fa-chevron-circle-left pull-left app-opor-arrowList"></span>Salud</p></a>
+				    	</li>
+				    	<li role="presentation">
+				    	   <a href="#Fam-img4" aria-controls="Fam-img4" role="tab" data-toggle="tab"><p><span class="fa fa-chevron-circle-left pull-left app-opor-arrowList"></span>Educación</p></a>
+				    	</li>
+				    	<li role="presentation">
+				    	   <a href="#Fam-img5" aria-controls="Fam-img5" role="tab" data-toggle="tab"><p><span class="fa fa-chevron-circle-left pull-left app-opor-arrowList"></span>Previsión</p></a>
+				    	</li>
+				    	<li role="presentation">
+				    	   <a href="#Fam-img6" aria-controls="Fam-img6" role="tab" data-toggle="tab"><p><span class="fa fa-chevron-circle-left pull-left app-opor-arrowList"></span>Impuestos</p></a>
+				    	</li>
+				    	<li role="presentation">
+				    	   <a href="#Fam-img7" aria-controls="Fam-img7" role="tab" data-toggle="tab"><p><span class="fa fa-chevron-circle-left pull-left app-opor-arrowList"></span>Ahorros</p></a>
+				    	</li>
+				    </ul>
+				</div>
+				<div class="col-xs-12 col-sm-1 app-content-step3">
 				</div>
 			</div>
 

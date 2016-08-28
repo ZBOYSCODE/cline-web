@@ -1,11 +1,9 @@
 {% extends "layout.volt" %}
 
 
-
-
 {% block content %}
 	
-	    <section class="app-full-section2  app-padding-section">  
+	    <section class="app-full-section  app-padding-section">  
 	    	<div class="container app-registro-form">
 	    	    <div class="app-step-title">REGÍSTRATE</div><br><br>
 	    		<form id="registro-Form" action="">
@@ -18,8 +16,22 @@
 	    				</div>
 		    			<div class="col-xs-12 col-sm-6">
 		    				<div class="form-group">
-		    					<label for="rut">RUT</label>
+		    					<label for="rut">Rut</label>
 		    					<input type="text" id="rut" class="form-control">
+		    				</div>
+		    			</div>
+	    		    </div>
+	    		    <div class="row">
+	    			    <div class="col-xs-12 col-sm-6">
+							<div class="form-group">
+								<label for="password">Password</label>
+								<input type="password" id="password" class="form-control">
+							</div>
+	    				</div>
+		    			<div class="col-xs-12 col-sm-6">
+		    				<div class="form-group">
+		    					<label for="password2">Repita Password</label>
+		    					<input type="password" id="password2" class="form-control">
 		    				</div>
 		    			</div>
 	    		    </div>

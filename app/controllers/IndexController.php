@@ -27,6 +27,11 @@ class IndexController extends ControllerBase
     public function trabajaAction(){
     	$this->view->pick("content/trabaja/index");
     }
+
+    public function contactoAction(){
+        $this->view->pick("content/Contacto/index");
+    }
+
     public function educacionfinancieraAction(){
         $this->view->setVar("subNav", "opcion1"); 
         $this->view->pick("content/home/educacion");

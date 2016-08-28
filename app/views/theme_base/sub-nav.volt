@@ -17,7 +17,7 @@
 	      
 
 
-	<div class="row app-submenu-home">
+	<div class="row app-submenu-home" style="display: none;">
 		<div class="col-xs-12 col-md-9">
 		    <div class="row">
 		    	<div class="col-xs-12 col-md-4">

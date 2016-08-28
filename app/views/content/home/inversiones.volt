@@ -8,38 +8,38 @@
     
     <div class="container-fluid app-background-content">
       <div class="row">
-            {{ partial("theme_base/subnavs/subnavinversiones") }}
+            <!--{{ partial("theme_base/subnavs/subnavinversiones") }}-->
             <div class="col-xs-12 col-sm-4 app-content-img">			
-                 <img src="<?php echo $this->url->get("").'img/asesoria/bienesraices.png'; ?>" class="img-responsive" alt="" style="padding-top: 16px;">             
+                 <img src="<?php echo $this->url->get("").'img/asesoria/bienesraices.png'; ?>" class="img-responsive" alt="" style="padding-top: 15px;">             
             </div>
 					
-    		<div class="col-xs-12 col-sm-4">
-      			<h1 class="app-titulo-home-right pull-right">PROYECTOS INMOBILIARIOS ...EN EJECUCIÓN</h1>
+    		<div align="center" class="col-xs-12 col-sm-4"><br>
+      			<h1 class="app-bienes-center">PROYECTOS INMOBILIARIOS</h1>
       			<div class="row">
 				    <div class="col-xs-12 col-sm-12">
 						<img src="<?php echo $this->url->get("").'img/asesoria/casabarra.png'; ?>" class="app-images-top" alt="">
 				    </div>
 			    </div>
-    		</div>            
+    		</div> 
+    		<div class="col-xs-12 col-sm-4 app-content-img">			
+                 <img src="<?php echo $this->url->get("").'img/bienesraices/edificios.png'; ?>" class="img-responsive" style="padding-top:15px;" alt="">            
+            </div>           
      	</div>      		
     </div>
 
 
     <div class="container-fluid">
       	<div class="row">
-			<div class="col-xs-12 col-sm-3 app-edu-bottom">
-		    <img src="<?php echo $this->url->get("").'img/bienesraices/edificios.png'; ?>" class="img-responsive" style="padding-top:30px;" alt="">
+			<div class="col-xs-12 col-sm-4 app-edu-bottom">
+				<p class="little-title">¿POR  QUÉ  INVERTIR  EN  ACTIVOS  DFL2?<p>
+				<ul class="align-left">
+					<li>Generan  ingresos NO tributables.</li> 
+					<li>Beneficio Art. 55 Bis rebaja intereses financieros de la base imponible tributaria.</li> 
+					<li>Exención en pago de contribuciones por 20 años para viviendas de menos 70 M2,  15 años entre 71 y 100 M2 y 10 años para mayores de 100M2.</li>
+					<li>No afecto a impuesto de herencias respecto del primer comprador  que fallece con a lo menos 6 meses después de la fecha de compra.</li>  
+				</ul>
 			</div>
-		<div class="col-xs-12 col-sm-3 app-edu-bottom">
-			<p class="little-title">¿POR  QUÉ  INVERTIR  EN  ACTIVOS  DFL2?<p>
-			<ul class="align-left">
-				<li>Generan  ingresos NO tributables.</li> 
-				<li>Beneficio Art. 55 Bis rebaja intereses financieros de la base imponible tributaria.</li> 
-				<li>Exención en pago de contribuciones por 20 años para viviendas de menos 70 M2,  15 años entre 71 y 100 M2 y 10 años para mayores de 100M2.</li>
-				<li>No afecto a impuesto de herencias respecto del primer comprador  que fallece con a lo menos 6 meses después de la fecha de compra.</li>  
-			</ul>
-		</div>
-			<div class="col-xs-12 col-sm-3 app-edu-bottom">
+			<div class="col-xs-12 col-sm-4 app-edu-bottom">
 			<p class="little-title">¿COMO PARTIR EN ESTE NEGOCIO?</p>
 				<ul class="align-left">
 					<li>Invertir en propiedades de poco metraje, bajo costo y alta demanda por arrendamiento.</li> 
@@ -50,7 +50,7 @@
 					<li>Perfil etario compatible con financiamiento de largo plazo.</li>
 				</ul>
 			</div>
-			<div class="col-xs-12 col-sm-3 app-edu-bottom">
+			<div class="col-xs-12 col-sm-4 app-edu-bottom">
 				<p class="little-title">¿QUÉ VENTAJAS OFRECE ESTE NEGOCIO?</p>
 				<ul class="align-left">
 						<li>El arriendo paga el dividendo.</li> 
