@@ -12,7 +12,7 @@
                     <li><a href="<?php echo $this->url->get('quienes-somos');?>"><p class="">QUIENES SOMOS</p></a></li>
                     <li class="dropdown app-dropdown"><a href="<?php echo $this->url->get('');?>" class="dropdown-toggle" data-toggle="dropdown"><p>SERVICIOS<span class="caret"></span></p></a>
                          <ul class="dropdown-menu app-nav">
-                            <li><a href="<?php print($this->url->get('educacionFinanciera')) ?>">Economía Financiera</a></li>
+                            <li><a href="<?php print($this->url->get('educacionFinanciera')) ?>">Educación Financiera</a></li>
                             <li><a href="<?php print($this->url->get('asesoriaFinanciera')) ?>">Asesoría Financiera</a></li>
                             <li><a href="<?php print($this->url->get('inversiones')) ?>">Bienes Raíces</a></li>
                           </ul>
