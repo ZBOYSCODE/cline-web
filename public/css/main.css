@@ -263,7 +263,7 @@ html, body{
 	display: table;
 	width: 8em;
 	height: 8em;
-	background-color: #b32d00;
+	background-color: #1b344b;
 	border-radius: 50%;
 	text-decoration: none !important;
 }
@@ -277,7 +277,7 @@ html, body{
 
 }
 .home-step-circle2:hover{
-   background-color: #1b344b !important;
+   background-color: #b32d00 !important;
    color: #ffffff;
 }
 .app-steps-text{
@@ -324,7 +324,6 @@ html, body{
 
 .app-steps-border{
   padding: 20px;
-  background-color: #e0e0d1;
   border-radius: 3px; 
   color: #1b344b;
   font-weight: bold;
