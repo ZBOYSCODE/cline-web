@@ -10,7 +10,7 @@ html, body{
 }
 
 .app-navbar{
-	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
+	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;g
 	border-radius: 0px; 
     background-color: #1b344b !important; 
     width: 100%;
@@ -58,14 +58,20 @@ html, body{
 
 }
 
+.app-dropdown  .dropdown-menu{
+	padding: 0px !important;
+}
+
 .app-dropdown ul > li, .app-dropdown ul > li > a{
 	height: 20px !important;
 	color: #1b344b;
 }
-.app-dropdown li > a:hover{
-	color: #1b344b;
+.app-dropdown li > a:hover, .app-dropdown li > a:focus{
+	background-color: #f4df8c !important;
+	color: #1b344b !important;
+	background-image: none !important;
 }
-.app-nav>li>a:hover{
+.app-nav>li>a:hover, .app-nav>li>a:focus {
 	background-color: #f4df8c;
 	color: #1b344b;
 	font-weight: bold;
