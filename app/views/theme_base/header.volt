@@ -4,7 +4,7 @@
                 <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
                     <i class="fa fa-bars"></i>               
                 </button>
-                <a href="<?php echo $this->url->get('');?>" class="app-a" title="Ir a Inicio"><img src="<?php echo $this->url->get('').'img/logo-sm-2.png'; ?>" alt="Logo" class="img-responsive app-logo"></a>
+                <a href="<?php echo $this->url->get('');?>" class="app-a" title="Ir a Inicio"><img src="<?php echo $this->url->get('').'img/Logo-sm-2.png'; ?>" alt="Logo" class="img-responsive app-logo"></a>
             </div>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="nav navbar-nav navbar-right app-nav">
