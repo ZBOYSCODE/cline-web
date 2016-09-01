@@ -7,7 +7,7 @@
     	<div class="container-fluid">
 	  		<div class="row">		    
 	  			<div class="col-xs-12 col-sm-12">
-	  			<div class="app-qs-title">EVALUADOR ONLINE</div><br><br>
+	  			<div class="app-eva-title">EVALUADOR ONLINE</div><br><br>
 	  				<p class="app-qs-content-bottom">
 	                   <!--El Evaluador Online es una solución tecnológica de gestión y análisis multidimensional de datos económicos, financieros y tributarios, que aplica procesos de captura, almacenamiento, decodificación y análisis crediticio de declaraciones de impuestos y estados de situación financiera, asociando y aplicando fórmulas, algoritmos y motores de reglas que, en definitiva, permitan identificar y asociar patrones lógicos de actividad e ingresos con productos y servicios financieros de crédito, financiamiento e inversión.    El Evaluador Online es fácil de usar….!  --> En solo 3  pasos podrás acceder a información de alto valor agregado relativa a tu posición crediticia, económica, financiera y tributaria y un completo informe de oportunidades de negocios e inversión.
 	                   </p><br>
@@ -42,104 +42,10 @@
     </section>
     
     <section id="Paso1" class="app-full-section2  app-padding-section">  
-    	<div class="container app-registro-form">
-    	<br><br>
-    	    <div class="app-step-title">PASO 1: REGÍSTRATE</div><br><br><br>
-    		<form id="registro-Form" action="">
-    			<div class="row">
-    			    <div class="col-xs-12 col-sm-6">
-						<div class="form-group">
-							<label for="nombre">Nombre o Razón Social</label>
-							<input type="text" id="nombre" class="form-control">
-						</div>
-    				</div>
-	    			<div class="col-xs-12 col-sm-6">
-	    				<div class="form-group">
-	    					<label for="rut">RUT</label>
-	    					<input type="text" id="rut" class="form-control">
-	    				</div>
-	    			</div>
-    		    </div>
-    		    <div class="row">
-    		    	<div class="col-xs-12 col-sm-6">
-						<div class="form-group">
-							<label for="domicilio">Domicilio</label>
-							<input type="text" id="domicilio" class="form-control">
-						</div>
-    				</div>
-    				<div class="col-xs-12 col-sm-2">
-						<div class="form-group">
-							<label for="numero">Número</label>
-							<input type="text" id="numero" class="form-control">
-						</div>
-    				</div>
-    				<div class="col-xs-12 col-sm-2">
-						<div class="form-group">
-							<label for="region">Región</label>
-							<select id="region" class="form-control">
-								<option>Seleccione</option>
-							</select>
-						</div>
-    				</div>
-    				<div class="col-xs-12 col-sm-2">
-						<div class="form-group">
-							<label for="comuna">Comuna</label>
-							<select id="comuna" class="form-control">
-								<option>Seleccione</option>
-							</select>
-						</div>
-    				</div>
-    		    </div>
-    		    <div class="row">
-    		    	<div class="col-xs-12 col-sm-6">
-						<div class="form-group">
-							<label for="email">Correo electrónico</label>
-							<input type="text" id="email" class="form-control">
-						</div>
-    				</div>
-    				<div class="col-xs-12 col-sm-6">
-						<div class="form-group">
-							<label for="profesion">Profesión</label>
-							<input type="text" id="profesion" class="form-control">
-						</div>
-    				</div>   				
-    		    </div>
-    		    <div class="row">
-    		    	<div class="col-xs-12 col-sm-6">
-						<div class="form-group">
-							<label for="email">Nacionalidad</label>
-							<input type="text" id="email" class="form-control">
-						</div>
-    				</div>
-    				<div class="col-xs-12 col-sm-6">
-						<div class="form-group">
-							<label for="profesion">Fecha de Nacimiento</label>
-							<div class="row ">
-								<div class="col-xs-12 col-sm-4 app-row-nac">
-									<select id="dia" class="form-control">
-										<option>Día</option>
-									</select>
-								</div>
-								<div class="col-xs-12 col-sm-4">
-									<select id="mes" class="form-control">
-										<option>Mes</option>
-									</select>
-								</div>
-								<div class="col-xs-12 col-sm-4">
-									<select id="anno" class="form-control">
-										<option>Año</option>
-									</select>
-								</div>
-							</div>
-						</div>
-    				</div>   				
-    		    </div>
-    		    <div class="row">
-	    		    <div class="form-group app-align-center">
-		  			    <button id="btn-Registro" type="submit" value="Enviar" class="btn app-btn-registro">Enviar</button>
-		  			</div>
-	  		    </div>
-    		</form>    		  		 		 
+    	<div class="container app-registro-form app-align-center">
+    	<br>
+    	    <div class="app-step-title">PASO 1: REGÍSTRATE</div><br><br>
+    		 <img src="<?php echo $this->url->get("").'img/evaluador/registro.png'; ?>" class="app-img-registro" alt="">   		  		 		 
     	</div>
         <br>
     </section> 
@@ -224,17 +130,18 @@
         <div class="container">
             
             <div class="row">
+                <div class="app-step-title">PASO 3: SERVICIO ONLINE</div><br>
                 <div class="col-xs-12 col-sm-6 app-content-step3">
                     <b>1. ACCESO</b>
                 	<p>Módulo de análisis de las empresas (clientes) de forma individual, en donde se entregará información clara y concisa de la empresa en cuestión. Es posible ver en gráficas y tablas de valor la información económica de los clientes, con la que se podrán tomar decisiones con más certeza sin invertir demasiado tiempo, puesto que la herramienta provee una solución online e instantánea.</p>
                 </div>
 				<div class="col-xs-12 col-sm-6 app-content-step3">
-					<img src="<?php echo $this->url->get("").'img/evaluador/acceso.jpg'; ?>" class="img-responsive app-img-step3" alt="">
+					<img src="<?php echo $this->url->get("").'img/evaluador/2.jpg'; ?>" class="img-responsive app-img-step3" alt="">
 				</div>
 			</div>
 			<div class="row">				
 				<div class="col-xs-12 col-sm-6 app-content-step3">
-					<img src="<?php echo $this->url->get("").'img/evaluador/2.jpg'; ?>" class="img-responsive app-img-step3" alt="">
+					<img src="<?php echo $this->url->get("").'img/evaluador/acceso.jpg'; ?>" class="img-responsive app-img-step3" alt="">
 				</div>
 				<div class="col-xs-12 col-sm-6 app-content-step3">
 				    <b>2. DECODIFICADOR</b>
@@ -243,7 +150,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 app-content-step3">
-				    <b>2. PROYECCIÓN DE RESULTADOS</b>
+				    <b>3. PROYECCIÓN DE RESULTADOS</b>
 					<p>Módulo de Proyección de resultados provee una potente herramienta para poder proyectar tus estados de resultados en el tiempo, definiendo parámetros de cambio en cuanto a las ventas, compras, gastos, perdidas, correcciones, etc. La herramienta arroja de forma útil la información generada en gráficas y tablas con los detalles.</p>
 				</div>
 				<div class="col-xs-12 col-sm-6 app-content-step3">
@@ -255,7 +162,7 @@
 					<img src="<?php echo $this->url->get("").'img/evaluador/1.jpg'; ?>" class="img-responsive app-img-step3" alt="">
 				</div>
 				<div class="col-xs-12 col-sm-6 app-content-step3">
-				    <b>3. BENCHMARK DE EMPRESAS</b>
+				    <b>4. BENCHMARK DE EMPRESAS</b>
 					<p>Módulo de Inteligencia de Negocios que analiza el universo total de todas las carpetas tributarias cargadas por el usuario, donde es posible filtrar y agrupar empresas en subconjuntos con cualidades similares desde el punto de vista de actividad económica, localización, ventas, compras, entre otras. Esta herramienta tiene como finalidad ver qué empresas y grupos son más viables para invertir.</p>
 				</div>
 			</div>
@@ -322,7 +229,7 @@
 				        </div>
 				        <br>
 				        <div class="row app-align-center">
-				        	<p class="app-opor">OPORTUNIDADES</p>
+				        	<p class="app-opor"><a href="#Fam-img1" aria-controls="Fam-img1" role="tab" data-toggle="tab">OPORTUNIDADES</a></p>
 				        </div>
 				</div>
 				<div align="center" class="col-xs-12 col-sm-3">

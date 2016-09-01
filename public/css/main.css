@@ -6,17 +6,17 @@ html, body{
 .app-logo{
 	margin-top: 10px;
 	width: 150px;
-	margin-left: 30px;
+	margin-left: 10px;
 }
 
 .app-navbar{
-	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;g
+	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
 	border-radius: 0px; 
     background-color: #1b344b !important; 
     width: 100%;
     height:55px !important;
     padding-left:30px;
-    padding-right:45px;
+   padding-right:45px;
     border-bottom: 5px solid #f4df8c;
 }
 
@@ -152,10 +152,8 @@ html, body{
 	font-family: "Angsana New", "Times New Roman", Georgia;
 	color: #f4df8c;
 	text-align: left;
-	margin-left: 40px;
-	width: 90%;
-	font-size: 3em;
-	letter-spacing: 4px;
+	margin-left: 30px;
+	font-size: 2.3em;
 }
 
 
@@ -221,9 +219,9 @@ html, body{
 }
 
 .app-img-alianzas{
-	width: 50px;
-	height: 50px;
-	border: 1px solid #1b344b;
+	width: 130px;
+	height: 130px;
+	border: 1px solid #727272;
 	border-radius: 3px;
 }
 
@@ -236,6 +234,7 @@ html, body{
 
 .app-img-step3{
 	width:90%;
+	border-radius: 3px;
 }
 
 .home-step-circle{
@@ -341,7 +340,7 @@ html, body{
 }
 .app-content-step3 b{
 	text-transform: uppercase;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 .app-content-step3 p{
 	text-align: justify;
@@ -359,17 +358,24 @@ html, body{
 
 .app-edu-justify{
    font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
-   text-align: center;
+   text-align: left;
    color: #f4df8c;
    font-size: 12px;
-   text-transform: uppercase;
    padding-top: 40px;
+   margin-left: 30px;
 }
+
 .app-edu-text{
 	padding-left: 15px;
 }
 .app-ase-text p{
-	padding: 13px 8px;
+	font-size: 0.9em;
+	padding: 10px 30px 7px 30px;
+	color:#727272;
+}
+
+.pie-de-foto{
+	padding-top: 3px;
 }
 
 .app-ase-text .app-subtitle-background{
@@ -395,12 +401,25 @@ html, body{
 }
 
 .app-edu-content{
-	padding: 20px 30px;
+	padding: 20px 40px 20px 40px; 
 	margin-top: 20px;
 	margin-bottom: 15px;
 	text-align: justify;
 	color:#727272;
 }
+.app-inv-bottom{
+	padding: 20px 30px; 
+	margin-top: 5px;
+	color:#727272;
+}
+
+
+.app-inv-bottom ul{
+	font-size: 0.9em;
+	margin-top: 10px;
+	padding-left: 20px !important;
+}
+
 .app-edu-bottom{
 	color:#727272;
 	margin-top: 20px;
@@ -408,10 +427,10 @@ html, body{
 }
 .app-edu-bottom ul{
 	padding-left: 0;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 .app-edu-bottom ul>li{
-	margin-top: 5px;
+	margin-top: 2px;
 }
 
 .app-ul-left ul>li{
@@ -561,6 +580,16 @@ html, body{
 	margin:0 auto;
 	width: 95%;
 }
+
+.app-opor a{
+	text-decoration: none;
+	color: white;
+}
+
+.app-opor:hover{
+	background-color: #737373;
+}
+
 .app-sidebar li a{
 	font-weight: bold;
 	font-size: 12px;
@@ -573,7 +602,9 @@ html, body{
    width: 90%;
 }
 .app-img-ase-top{
-	width: 90%;
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
 }
 .app-img-ase-bottom{
 	width: 60%;
@@ -598,7 +629,16 @@ html, body{
    margin-bottom: 10px;
 }
 .app-img-edu-top{
+	width: 300px;
+	height: 200px;
+	border-radius: 3px;
+	margin:0 auto;
+}
+.app-img-registro{
 	width: 80%;
+	margin:0 auto;
+	border: 1px solid #727272;
+	border-radius: 3px;
 }
 .app-img-edu-bottom{
 	margin-top: 15px;
@@ -647,8 +687,20 @@ html, body{
    background-color: #5d7291;
    padding: 5px;
    padding-left: 15px;
-   margin-left: 30px;
-   width: 200px;
+   margin-left: 40px;
+   width: 250px;
+   color: white;
+   font-weight: bold;
+}
+
+.app-eva-title{
+   font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
+   margin-top: 30px;
+   background-color: #5d7291;
+   padding: 5px;
+   padding-left: 15px;
+   margin-left: 25px;
+   width: 250px;
    color: white;
    font-weight: bold;
 }
@@ -662,6 +714,7 @@ html, body{
    width: 500px;
    color: white;
    font-weight: bold;
+   text-align: left !important;
 }
 .app-realidad{
    font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
@@ -687,6 +740,7 @@ html, body{
 }
 .app-qs-content-bottom{
 	padding: 0 25px;
+	color: #727272;
 }
 .app-alianza-content{
    text-align: left;
@@ -697,7 +751,9 @@ html, body{
   width: 70%;
   margin-bottom: 10px;
 }
-
+.app-img-qs-padding{
+	padding-left : 0px !important;
+}
 .pie-pagina-qs{
 	font-size: 0.7em;
 	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
@@ -738,9 +794,18 @@ html, body{
 	padding-right: 5px !important;
 }
 
+
 .app-padding-section{
 	padding: 50px 15px 80px 15px;
 }
+
+.app-margin-left{
+	margin-left: 30px;
+}
+.app-margin-right{
+	margin-right: 30px;
+}
+
 .app-registro-form input, select, textarea, button{
 	border-radius: 0 !important;
 }
@@ -953,6 +1018,13 @@ html, body{
 	color: white;
 	text-decoration: none;
 }
+.app-footer-info{
+	padding-top: 7px;
+	font-style: normal !important;
+}
+.app-footer-info span{
+	font-size: 12px;
+}
 
 .app-background-content{
 	border-bottom: 5px solid #f4df8c;
@@ -994,8 +1066,8 @@ html, body{
 }
 .img-alianza a img{
    margin: 0 auto;
-   width: 110px;
-   height: 80px;
+   width: 120px;
+   height: 100px;
 }
 
 .img-alianza a img:hover{
@@ -1015,7 +1087,7 @@ html, body{
 .pie-de-foto{
 	padding: 10px;
 	font-weight: bold;
-
+    color:#727272;
 }
 
 .little-title{
@@ -1033,8 +1105,6 @@ html, body{
 }
 .table-head-top{
 		font-size: 10px;
-
-
 }
 
 .table-head-top>thead>tr>th {
@@ -1073,9 +1143,14 @@ html, body{
 
 .padding-quienes{
 	padding-top: 35px;
-
-
+    padding-right: 0 !important;
+    margin-right: 0 !important;
 }
+
+.padding-quienes .app-qs-content-bottom{
+	padding-right: 0 !important;
+}
+
 .padding-quienes-ul{
 	padding-left: 47px;
 

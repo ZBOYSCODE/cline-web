@@ -12,15 +12,15 @@
                     <li><a href="<?php echo $this->url->get('quienes-somos');?>"><p class="">QUIENES SOMOS</p></a></li>
                     <li class="dropdown app-dropdown"><a href="<?php echo $this->url->get('');?>" class="dropdown-toggle" data-toggle="dropdown"><p>SERVICIOS<span class="caret"></span></p></a>
                          <ul class="dropdown-menu app-nav">
-                            <li><a href="<?php print($this->url->get('educacionFinanciera')) ?>">Educación Financiera</a></li>
-                            <li><a href="<?php print($this->url->get('asesoriaFinanciera')) ?>">Asesoría Financiera</a></li>
-                            <li><a href="<?php print($this->url->get('inversiones')) ?>">Bienes Raíces</a></li>
+                            <li><a href="<?php print($this->url->get('educacionFinanciera')) ?>">Educación &nbsp;&nbsp;Financiera</a></li>
+                            <li><a href="<?php print($this->url->get('asesoriaFinanciera')) ?>">Asesoría &nbsp;&nbsp;Financiera</a></li>
+                            <li><a href="<?php print($this->url->get('inversiones')) ?>">Proyectos &nbsp;&nbsp;Inmobiliarios</a></li>
                           </ul>
                     </li>
                     <li><a href="<?php echo $this->url->get('evaluador-online');?>"><p class="">EVALUADOR ONLINE</p></a></li>
                     <li><a href="<?php echo $this->url->get('registrate');?>"><p class="">REGÍSTRATE</p></a></li>
-                    <!--<li><a href="<?php echo $this->url->get("trabaja-con-nosotros");?>"><p class="">TRABAJA CON NOSOTROS</p></a></li>  -->
-                    <li><a href="<?php echo $this->url->get('contacto');?>"><p class="">CONTÁCTANOS</p></a></li> 
+                    <!--<li><a href="<?php echo $this->url->get("trabaja-con-nosotros");?>"><p class="">TRABAJA CON NOSOTROS</p></a></li>  
+                    <li><a href="<?php echo $this->url->get('contacto');?>"><p class="">CONTÁCTANOS</p></a></li> -->
                     <li><a href="" data-toggle="modal" data-target="#LoginModal"><p class="">LOGIN</p></a></li>                            
                 </ul>
             </div>                   
