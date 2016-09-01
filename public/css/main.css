@@ -231,7 +231,9 @@ html, body{
 	border: 1px solid #1b344b;
 	border-radius: 3px;
 }
-
+.app-img-steps{
+  width: 60%;
+}
 .app-img-step3{
 	width:90%;
 	border-radius: 3px;
@@ -942,7 +944,7 @@ html, body{
 }
 
 .app-tabpane-content{
-	padding: 10px;
+	
 }
 .app-caja-paso2 ul>li{
    color: #1b344b;

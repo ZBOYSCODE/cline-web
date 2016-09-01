@@ -75,18 +75,7 @@
 					<div class="app-tabpane-content">
 					    <div class="app-tab-pane">
 					        <div class="app-caja-paso2">
-					    	    <ul>
-						    	 	<li>Ingrese al sitio de <a href="http://www.sii.cl">www.sii.cl</a></li>
-						    	 	<li>Seleccione Sub Menú "Situación Tributaria" y luego: "Carpeta Tributaria Electrónica."</li>
-						    	 	<li>Clic sobre opción "Generar Carpeta Tributaria", luego pulsar Solicitar Créditos.</li>
-						    	 	<li><ul>
-						    	 		<li>Identifica:Usuario y Clave y, luego: clic opción "continuar".</li>
-						    	 		<li>Identificar destinatario y mail destinatario.</li>
-						    	 		<li>Seleccione Institución a la que envía la información.</li>
-						    	 		<li>Comunico al SII que he autorizado al contribuyente destinatario de ..., luego "enviar".</li>
-						    	 	</ul></li>
-						    	 	<li>Presione el botón "siguiente" para continuar.</li>
-					    	    </ul> 
+					    	    <img src="<?php echo $this->url->get("").'img/evaluador/Paso1.png'; ?>" class="app-img-steps" alt="">   	
 					    	</div>
 					    </div>						
 					</div>
@@ -100,8 +89,7 @@
 					<div class="app-tabpane-content">
 					    <div class="app-tab-pane">
 					    	 <div class="app-caja-paso2">
-					    	    <i class="fa fa-upload app-fa-step"></i><br>
-					    	 	<p>"Haga Click o Arrastre los Archivos para ser cargados".</p>
+					    	    <img src="<?php echo $this->url->get("").'img/evaluador/Paso2.png'; ?>" class="app-img-steps" alt=""> 
 					    	 </div>
 					    </div><br>					
 					</div>
@@ -115,8 +103,7 @@
 					<div class="app-tabpane-content">
 					    <div class="app-tab-pane">
 					    	<div class="app-caja-paso2">
-					    	    <i class="fa fa-clock-o app-fa-step"></i><br>
-					    	 	<p>"Espere a que el sistema procese sus documentos..."</p>
+					    	    <img src="<?php echo $this->url->get("").'img/evaluador/Paso3.png'; ?>" class="app-img-steps" alt=""> 
 					    	 </div>
 					    </div><br>						
 					</div>
