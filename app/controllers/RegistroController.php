@@ -67,6 +67,7 @@ class RegistroController extends \Phalcon\Mvc\Controller
                 // si no falla la validacion persistimos
 
                 $user = new UserCredline();
+                $formdata["password"] = $this->security->hash($formdata["password"]);
                 $status = $user->saveData($formdata);
 
 

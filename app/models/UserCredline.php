@@ -78,7 +78,7 @@ class UserCredline extends Model
 
             $this->nombre = $parameters["nombre"];
             $this->rut = $parameters["rut"];
-            $this->password  = $this->security->hash($parameters["password"]);
+            $this->password  = $parameters["password"];
             $this->domicilio = $parameters["domicilio"];
             $this->correo = $parameters["email"];
             $this->nacionalidad = $parameters["nacionalidad"];
