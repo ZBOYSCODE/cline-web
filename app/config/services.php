@@ -13,6 +13,8 @@ use Phalcon\Mvc\Model\Metadata\Memory as MetaDataAdapter;
 use Phalcon\Session\Adapter\Files as SessionAdapter;
 use Phalcon\Flash\Direct as Flash;
 
+use App\Valida\Valida;
+
 /**
  * The FactoryDefault Dependency Injector automatically register the right services providing a full stack framework
  */
@@ -97,9 +99,22 @@ $di->setShared('session', function () {
     return $session;
 });
 
+
+
 /**
  * Loading routes from the routes.php file
  */
 $di->set('router', function () {
     return require __DIR__ . '/routes.php';
 });
+
+
+
+/**
+ * Valida
+ */
+$di->set('Valida', function () {
+    return new Valida();
+});
+
+

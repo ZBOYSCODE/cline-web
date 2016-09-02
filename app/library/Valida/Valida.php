@@ -1,5 +1,6 @@
 <?php
-	namespace Gabs\Valida;
+
+    namespace App\Valida;
 
 	use Phalcon\Mvc\User\Component;
 	use Phalcon\Mvc\Dispatcher;
@@ -93,7 +94,7 @@
 
 			if(isset($this->post[$campo])){
 
-				if(empty($this->post[$campo])){
+				if(empty($this->post[$campo]) || $this->post[$campo] == ""){
 					$this->errors[] = array($campo," Este campo es requerido.");
 					return false;
 				}
@@ -203,7 +204,7 @@
 			return true;
 		}
 
-		private function validateDate($date, $format = 'd/m/Y') {
+		private function validateDate($date, $format = 'Y-m-d') {
 
 		    $d = \DateTime::createFromFormat($format, $date);
 		    return $d && $d->format($format) == $date;

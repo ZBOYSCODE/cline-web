@@ -21,6 +21,8 @@ class IndexController extends ControllerBase
     }
 
     public function registrateAction(){
+
+        $this->assets->addJs("js/pages/registro.js");
     	$this->view->pick("content/registrate/index");
     }
 

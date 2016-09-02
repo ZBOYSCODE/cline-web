@@ -44,6 +44,10 @@
         {{ javascript_include('js/pages/credline-login.js') }}
 
 
+
+         {{ assets.outputJs() }}
+
+
         {% block scripts %}{% endblock %}
     </body>
 </html>
