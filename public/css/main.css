@@ -360,11 +360,10 @@ html, body{
 }
 
 .app-edu-justify{
-   font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
    text-align: left;
    color: #f4df8c;
-   font-size: 12px;
-   padding-top: 40px;
+   font-size: 13px;
+   padding-top: 50px;
    margin-left: 30px;
 }
 

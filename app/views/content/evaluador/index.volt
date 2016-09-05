@@ -120,7 +120,7 @@
                 <div class="app-step-title">PASO 3: SERVICIO ONLINE</div><br>
                 <div class="col-xs-12 col-sm-6 app-content-step3">
                     <b>1. ACCESO</b>
-                	<p>Módulo de análisis de las empresas (clientes) de forma individual, en donde se entregará información clara y concisa de la empresa en cuestión. Es posible ver en gráficas y tablas de valor la información económica de los clientes, con la que se podrán tomar decisiones con más certeza sin invertir demasiado tiempo, puesto que la herramienta provee una solución online e instantánea.</p>
+                	<p>Módulo de información con listado de nombre, rut y fechas de cargas efectuadas por los usuarios en el sistema, que permite visualizar el universo total de cargas y/o seleccionar e ingresar a la página privada de información económica, financiera y tributaria de cada empresa o persona natural en particular.</p>
                 </div>
 				<div class="col-xs-12 col-sm-6 app-content-step3">
 					<img src="<?php echo $this->url->get("").'img/evaluador/2.jpg'; ?>" class="img-responsive app-img-step3" alt="">
@@ -132,13 +132,13 @@
 				</div>
 				<div class="col-xs-12 col-sm-6 app-content-step3">
 				    <b>2. DECODIFICADOR</b>
-					<p>Módulo para analizar empresas de forma separada, en donde es posible ver toda la data de las carpetas tributarias de forma útil para el usuario, siendo entendible por cualquier persona con pocos conocimientos de contabilidad. Esta Herramienta da valor al usuario final ya que en solo 3 pasos es posible tomar decisiones sobre las empresas viendo gráficas e información agregada.</p>
+					<p>Módulo de información y análisis de datos económicos, financieros y tributarios de la empresa relativo a: Análisis de Compras y Ventas, Análisis de IVA y PPM, Patrones Documentarios y Financieros, Franquicias Tributarias, Proyecciones Económicas, Análisis FECU, Análisis del Ciclo de Caja, entre otros aspectos.</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 app-content-step3">
 				    <b>3. PROYECCIÓN DE RESULTADOS</b>
-					<p>Módulo de Proyección de resultados provee una potente herramienta para poder proyectar tus estados de resultados en el tiempo, definiendo parámetros de cambio en cuanto a las ventas, compras, gastos, perdidas, correcciones, etc. La herramienta arroja de forma útil la información generada en gráficas y tablas con los detalles.</p>
+					<p>Módulo de Sensibilización y Proyección Económica que permite al usuario proyectar el resultado financiero y tributario de la empresa a partir de la asignación de tasas de variación por cada ítem del Estado de Resultados, permitiendo visualizar los efectos económicos y tributarios sobre el Resultado Neto del Ejercicio, Generación Operativa Bruta de Caja, Resultado Tributario, Margen Operacional, entre otras variables.</p>
 				</div>
 				<div class="col-xs-12 col-sm-6 app-content-step3">
 					<img src="<?php echo $this->url->get("").'img/evaluador/3.jpg'; ?>" class="img-responsive app-img-step3" alt="">
@@ -150,7 +150,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-6 app-content-step3">
 				    <b>4. BENCHMARK DE EMPRESAS</b>
-					<p>Módulo de Inteligencia de Negocios que analiza el universo total de todas las carpetas tributarias cargadas por el usuario, donde es posible filtrar y agrupar empresas en subconjuntos con cualidades similares desde el punto de vista de actividad económica, localización, ventas, compras, entre otras. Esta herramienta tiene como finalidad ver qué empresas y grupos son más viables para invertir.</p>
+					<p>Módulo de búsqueda y segmentación Inteligente que filtra y agrupa empresas y/o personas naturales en base a  atributos de localización, actividad económica, volumen de compras y ventas, volumen de activos, variables financieras y tributarias específicas, edad tributaria, patrones lógicos documentarios y financieros, inversión de trabajo positiva o negativa, entre otras variables.</p>
 				</div>
 			</div>
 			
