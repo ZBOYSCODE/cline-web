@@ -71,6 +71,19 @@ $di->setShared('db', function () use ($config) {
 });
 
 /**
+ * Second Database connection is created based in the parameters defined in the configuration file
+ */
+$di->setShared('db2', function () use ($config) {
+    $dbConfig = $config->database2->toArray();
+    $adapter = $dbConfig['adapter'];
+    unset($dbConfig['adapter']);
+
+    $class = 'Phalcon\Db\Adapter\Pdo\\' . $adapter;
+
+    return new $class($dbConfig);
+});
+
+/**
  * If the configuration specify the use of metadata adapter use it or use memory otherwise
  */
 $di->setShared('modelsMetadata', function () {

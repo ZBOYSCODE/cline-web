@@ -33,6 +33,7 @@ class UserCredline extends Model
      */
     public function initialize()
     {
+        $this->setConnectionService('db');
 
     }
 

@@ -1,6 +1,7 @@
 <?php
 
 use \UserCredline as UserCredline;
+use \UserBicorp as UserBicorp;
 use App\Valida\Valida;
 
 
@@ -22,10 +23,7 @@ class RegistroController extends \Phalcon\Mvc\Controller
             //array de respuesta al ajax
             $response = [];
 
-
             $formdata = $this->request->getPost();
-
-
 
             $valida = new Valida($formdata,[
                 'nombre'=>'required|string',
@@ -51,7 +49,6 @@ class RegistroController extends \Phalcon\Mvc\Controller
                 'anno'=> 'required',
             ]);
 
-
             if($valida->failed()) {
 
                 $response["estado"] = "validacion";
@@ -64,29 +61,45 @@ class RegistroController extends \Phalcon\Mvc\Controller
             }
             else {
 
-                // si no falla la validacion persistimos
-
-                $user = new UserCredline();
-                $formdata["password"] = $this->security->hash($formdata["password"]);
-                $status = $user->saveData($formdata);
-
-
-                if($status == true) {
-                    //se guardó
-
-                    $response["estado"] = "correcto";
-                    $response["msg"] = "Usuario guardado correctamente.";
-                    $response["datos"] = [];
-
-                }
-                else {
-                    // error en el guardado
-
+                //si existe el usuario en la db
+                    
+                $user = UserBicorp::findFirstByEmail($formdata['email']);
+              
+                if($user!=false){
 
                     $response["estado"] = "inesperado";
-                    $response["msg"] = "Error inesperado al guardar los datos.";
+                    $response["msg"] = "Usuario ya registrado en la base de datos verifique correo";
                     $response["datos"] = [];
 
+                }else{
+
+                    // si no falla la validacion persistimos
+
+                    $user = new UserCredline();
+                    $formdata["password"] = $this->security->hash($formdata["password"]);
+                    $status = $user->saveData($formdata);
+
+                    $userBicorp = new UserBicorp();
+                    $status2= $userBicorp->saveData($formdata);
+
+
+                    if($status == true && $status2 == true) {
+
+                        //se guardó
+
+                        $response["estado"] = "correcto";
+                        $response["msg"] = "Usuario guardado correctamente.";
+                        $response["datos"] = [];
+
+                    }
+                    else {
+                        // error en el guardado
+
+                        $response["estado"] = "inesperado";
+                        $response["msg"] = "Error inesperado al guardar los datos.";
+                        $response["datos"] = [];
+
+                    }
                 }
             }
 

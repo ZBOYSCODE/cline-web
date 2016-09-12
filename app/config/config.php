@@ -11,6 +11,17 @@ return new \Phalcon\Config(array(
         'dbname'      => 'bi',
         'charset'     => 'utf8',
     ),
+    'database2' => array(
+        'adapter'     => 'Mysql',
+        'host'        => 'localhost',
+        'username'    => 'root',
+        'password'    => ($_SERVER['SERVER_ADDR']=='::1'?'':'z3nta'),
+        'dbname'      => 'bicorp',
+        'charset'     => 'utf8',
+    ),
+
+
+
     'application' => array(
         'controllersDir' => APP_PATH . '/app/controllers/',
         'modelsDir'      => APP_PATH . '/app/models/',
