@@ -13,7 +13,7 @@ class SessionController extends ControllerBase
 
             $crypt = new Crypt();
             $data = array();
-            $key = "miguelos5267";
+            
 
             $credentials['password'] = $this->request->getPost('password');
             $credentials['email'] = $this->request->getPost('user');
@@ -32,7 +32,8 @@ class SessionController extends ControllerBase
             }else{
 
                 if($this->security->checkHash($credentials['password'], $user->password)){
-
+				
+					$key = "miguelos52675267";
                     $data["msg"] = "Datos Correctos, redirigiendo...";
                     $data["estado"] = true;
 					$hash['id']=$user->id;
