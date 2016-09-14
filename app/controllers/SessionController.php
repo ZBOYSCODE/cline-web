@@ -13,7 +13,7 @@ class SessionController extends ControllerBase
 
             $crypt = new Crypt();
             $data = array();
-            $key = "4d18db80e353e526ad6d42a62aaa29be";
+            $key = "miguelos5267";
 
             $credentials['password'] = $this->request->getPost('password');
             $credentials['email'] = $this->request->getPost('user');
@@ -25,6 +25,9 @@ class SessionController extends ControllerBase
 
                 $data["msg"] = "Usuario no existe";
                 $data["estado"] = false;
+				
+				
+				
 
             }else{
 
@@ -32,7 +35,10 @@ class SessionController extends ControllerBase
 
                     $data["msg"] = "Datos Correctos, redirigiendo...";
                     $data["estado"] = true;
-                    $data["hash"] = $crypt->encryptBase64( (string) $user->id, $key);
+					$hash['id']=$user->id;
+					$hash['tk']=time();
+
+                    $data["hash"] = urlencode($crypt->encryptBase64(json_encode($hash), $key));
 
                 }
 

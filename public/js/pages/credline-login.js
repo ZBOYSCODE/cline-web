@@ -4,7 +4,7 @@ $(document).ready(function() {
     var baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 
     if(getUrl.host == "localhost")
-        var redirect = "http://localhost/bicorp/credline/login";
+        var redirect = "http://localhost/credline/credline/login";
     else
         var redirect = "http://app.credline.cl/credline/login";
 
@@ -20,7 +20,7 @@ $(document).ready(function() {
                 $("#hash").val(data.hash);
                 $.bootstrapGrowl(data.msg, { type: "success", align: 'center',width: 'auto' });
                 $("#modal-login").hide();
-                window.location.href = redirect+"/"+data.hash;
+                window.location.href = redirect+"?id="+data.hash;
                 console.log( redirect+"/"+data.hash);
             }
             else {

@@ -16,7 +16,7 @@ return new \Phalcon\Config(array(
         'host'        => 'localhost',
         'username'    => 'root',
         'password'    => ($_SERVER['SERVER_ADDR']=='::1'?'':'z3nta'),
-        'dbname'      => 'bicorp',
+        'dbname'      => 'credline',
         'charset'     => 'utf8',
     ),
 
