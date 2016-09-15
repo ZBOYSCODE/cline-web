@@ -10,11 +10,11 @@
 
 	    		<form id="registro-Form" action="{{ url("registro/createuser")  }}" method="post" data-type="ajax" data-redirect="{{ url("/")  }}">
 	    			<div class="row">
-	    			    <div class="col-xs-12 col-sm-6">
+	    		    	<div class="col-xs-12 col-sm-6">
 							<div class="form-group">
-								<label for="nombre">Nombre o Razón Social</label>
-								<input type="text" id="nombre" name="nombre" class="form-control">
-								<span class="hidden" id="error-nombre"></span>
+								<label for="email">Correo electrónico</label>
+								<input type="text" id="email" name="email" class="form-control">
+								<span class="hidden" id="error-email"></span>
 							</div>
 	    				</div>
 		    			<div class="col-xs-12 col-sm-6">
@@ -41,7 +41,7 @@
 		    				</div>
 		    			</div>
 	    		    </div>
-	    		    <div class="row">
+	    		    <div class="row" style="display:none;">
 	    		    	<div class="col-xs-12 col-sm-6">
 							<div class="form-group">
 								<label for="domicilio">Domicilio</label>
@@ -88,22 +88,22 @@
 	    				</div>
 	    		    </div>
 	    		    <div class="row">
-	    		    	<div class="col-xs-12 col-sm-6">
+	    			    <div class="col-xs-12 col-sm-6">
 							<div class="form-group">
-								<label for="email">Correo electrónico</label>
-								<input type="text" id="email" name="email" class="form-control">
-								<span class="hidden" id="error-email"></span>
+								<label for="nombre">Nombre o Razón Social</label>
+								<input type="text" id="nombre" name="nombre" class="form-control">
+								<span class="hidden" id="error-nombre"></span>
 							</div>
 	    				</div>
 	    				<div class="col-xs-12 col-sm-6">
 							<div class="form-group">
-								<label for="profesion">Profesión</label>
+								<label for="profesion">Institución</label>
 								<input type="text" id="profesion" name="profesion" class="form-control">
 								<span class="hidden" id="error-profesion"></span>
 							</div>
 	    				</div>   				
 	    		    </div>
-	    		    <div class="row">
+	    		    <div class="row" style="display:none;">
 	    		    	<div class="col-xs-12 col-sm-6">
 							<div class="form-group">
 								<label for="nacionalidad">Nacionalidad</label>

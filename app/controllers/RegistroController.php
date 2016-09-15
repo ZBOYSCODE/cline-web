@@ -27,26 +27,11 @@ class RegistroController extends \Phalcon\Mvc\Controller
 
             $valida = new Valida($formdata,[
                 'nombre'=>'required|string',
-                'nacionalidad'=>'required|string',
-
                 'rut'=>'required|rut',
-                'numero'=>'required|int',
-
                 'email'=> 'required|email',
-
                 'password' => 'required|min:4',
                 'password2'=>'required|min:4',
-
-                'domicilio'=> 'required',
                 'profesion'=> 'required',
-
-                'region'=> 'required',
-                'comuna'=> 'required',
-
-                'dia'=> 'required',
-                'mes'=> 'required',
-
-                'anno'=> 'required',
             ]);
 
             if($valida->failed()) {

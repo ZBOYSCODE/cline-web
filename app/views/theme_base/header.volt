@@ -38,7 +38,7 @@
               </div>
               <div class="modal-body">
                     <div class="form-group">
-                        <label for="user">Usuario</label>
+                        <label for="user">Email</label>
                         <input type="text" id="user" name="user" class="form-control">
                     </div>
                     <div class="form-group">

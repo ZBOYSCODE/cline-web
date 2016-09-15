@@ -36,7 +36,7 @@
 
 			<form id="loginForm" method="post" action="<?php print $this->url->get('session/login')?>" class="app-loginForm form-inline">
 				<div class="form-group">
-					<input type="text" id="user" name="user"  placeholder="Usuario" class="form-control">
+					<input type="text" id="user" name="user"  placeholder="Email" class="form-control">
 					<input type="password" id="password" name="password" placeholder="Password" class="form-control">
 					<button id="enviar-form" href="javascript:void(0)">Ingresar</button>
 				</div>			
