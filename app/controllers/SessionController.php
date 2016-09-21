@@ -25,10 +25,6 @@ class SessionController extends ControllerBase
 
                 $data["msg"] = "Usuario no existe";
                 $data["estado"] = false;
-				
-				
-				
-
             }else{
 
                 if($this->security->checkHash($credentials['password'], $user->password)){
@@ -38,24 +34,25 @@ class SessionController extends ControllerBase
                     $data["estado"] = true;
 					$hash['id']=$user->id;
 					$hash['tk']=time();
-
                     $data["hash"] = urlencode($crypt->encryptBase64(json_encode($hash), $key));
-
+					$this->session->set('credline-web', array(
+						'id'			=> $data["hash"]
+					));
                 }
-
                 else {
-
                     $data["msg"] = "Password incorrecta";
                     $data["estado"] = false;
-
                 }
 
             }
-
-
             echo json_encode($data, JSON_PRETTY_PRINT);
 
         }
     }
+	
+	public function logoutAction(){
+		$this->session->remove('credline-web');
+		return $this->response->redirect("");
+	}
 
 }

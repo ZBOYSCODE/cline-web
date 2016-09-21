@@ -6,6 +6,10 @@
 
 	$router = new Phalcon\Mvc\Router();
 
+	$router->add('/logout', array(
+	    'controller' => 'session',
+	    'action' => 'logout'
+	));	
 	
 	$router->add('/nosotros', array(
 	    'controller' => 'index',
