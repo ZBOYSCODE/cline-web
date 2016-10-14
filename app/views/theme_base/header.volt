@@ -17,7 +17,7 @@
                             <li><a href="<?php print($this->url->get('inversiones')) ?>">Proyectos &nbsp;&nbsp;Inmobiliarios</a></li>
                           </ul>
                     </li>
-                    <li><a href="<?php echo $this->url->get('evaluador-online');?>"><p class="">EVALUADOR ONLINE</p></a></li>
+                    <!--<li><a href="<?php echo $this->url->get('evaluador-online');?>"><p class="">EVALUADOR ONLINE</p></a></li>-->
                     <li><a href="<?php echo $this->url->get('registrate');?>"><p class="">REGÍSTRATE</p></a></li>
                     <!--<li><a href="<?php echo $this->url->get("trabaja-con-nosotros");?>"><p class="">TRABAJA CON NOSOTROS</p></a></li>  
                     <li><a href="<?php echo $this->url->get('contacto');?>"><p class="">CONTÁCTANOS</p></a></li> -->

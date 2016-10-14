@@ -36,7 +36,7 @@
 				<p class="pie-pagina-qs"><strong><i>Ing. Mario Zuñiga Meier <br>CEO - Fundador Zenta Solutions</i></strong></p>
 			</div>
 		</div>
-		<div class="app-qs-title">ALIANZAS ESTATÉGICAS</div><br>
+		<!--<div class="app-qs-title">ALIANZAS ESTATÉGICAS</div><br>
 		<div class="row">
 		    <div class="col-xs-12 col-sm-12">
 	    	    
@@ -48,7 +48,7 @@
 			<div class="col-md-3 img-alianza"><a href="#"><img src="img/alianzas/pacal.png" class="app-img-alianzas" alt=""></a></div>
 			<div class="col-md-3 img-alianza"><a href="#"><img src="img/alianzas/remax.png" class="app-img-alianzas" alt=""></a></div>
 			<div class="col-md-3 img-alianza"><a href="#"><img src="img/alianzas/solar.png" class="app-img-alianzas" alt=""></a></div>				
-		</div><br><br><br>
+		</div>--><br><br><br>
 	</div>
     	
 	
