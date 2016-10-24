@@ -685,7 +685,7 @@ html, body{
 }
 .app-qs-title{
    font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
-   margin-top: 30px;
+   margin-top: 25px;
    background-color: #5d7291;
    padding: 5px;
    padding-left: 15px;
@@ -1144,7 +1144,7 @@ html, body{
 }
 
 .padding-quienes{
-	padding-top: 35px;
+	padding-top: 25px;
     padding-right: 0 !important;
     margin-right: 0 !important;
 }
