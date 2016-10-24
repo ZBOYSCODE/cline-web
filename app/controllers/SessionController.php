@@ -28,8 +28,8 @@ class SessionController extends ControllerBase
                 $data["msg"] = "Usuario no existe";
                 $data["estado"] = false;
             }else{
-				
-				this->security->checkHash($credentials['password'], $user->password)){
+
+                if($this->security->checkHash($credentials['password'], $user->password)){
 					$key = "miguelos52675267";
                     $data["msg"] = "Datos Correctos, redirigiendo...";
                     $data["estado"] = true;
