@@ -11,11 +11,11 @@
 			    <p class="app-qs-content-bottom color-quienes"> Somos una empresa que brinda servicios online de captura, decodificación, almacenamiento y análisis de datos económicos, financieros e inversión en activos y porfolios.</p>
 				<ul class="padding-quienes-ul">
 				<br>
-				<li class="app-qs-content-bottom color-quienes"><strong>MISIÓN</strong> <br><br>
+				<li class="app-qs-content-bottom color-quienes"><strong>MISIÓN</strong> <br>
                  Brindar a trabajadores, profesionales independientes, emprendedores, pequeños empresarios e industriales emergentes información acerca de su propia realidad crediticia, económica, financiera y tributaria para que puedan alcanzar nuevas metas, objetivos y desafíos de negocios, sin descuidar su salud financiera y condición de sujeto de crédito.              
                  </li>
                  <br>
-                 <li class="app-qs-content-bottom color-quienes"> <strong>VISIÓN</strong><br><br>
+                 <li class="app-qs-content-bottom color-quienes"> <strong>VISIÓN</strong><br>
                  Buscamos constituirnos en una empresa líder de consultoría financiera, reconocida por su compromiso con la calidad e innovación de sus productos y procesos, uso intensivo de tecnología, seguridad informática y confidencialidad en el manejo y control de los datos de nuestros clientes.  Lo anterior implica preocupamos de disponer de profesionales idóneos, crear y desarrollar productos y servicios de alta calidad, fomentar el espíritu de colaboración y servicio e incentivar la creatividad y capacidad de innovación en todos quienes conforman nuestra organización.</li>
                  </ul>
 			</div>
