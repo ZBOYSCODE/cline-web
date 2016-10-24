@@ -3,11 +3,6 @@ $(document).ready(function() {
     var getUrl = window.location;
     var baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 
-    if(getUrl.host == "localhost")
-        var redirect = "http://localhost/credline/credline/login";
-    else
-        var redirect = "http://app.credline.cl/credline/login";
-
     $(document).on('click', '#enviar-form', function () {
 
         var action = $("#loginForm").attr("action");
@@ -17,6 +12,7 @@ $(document).ready(function() {
 
         response.success(function (data) {
             if(data.estado){
+				var redirect = data.redirect;
                 $("#hash").val(data.hash);
                 $.bootstrapGrowl(data.msg, { type: "success", align: 'center',width: 'auto' });
                 $("#modal-login").hide();

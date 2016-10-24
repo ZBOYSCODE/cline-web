@@ -13,6 +13,8 @@ class SessionController extends ControllerBase
 
             $crypt = new Crypt();
             $data = array();
+			
+			$data['redirect'] = "http://app.credline.cl/credline/login";//"http://localhost/credline/credline/login";
             
 
             $credentials['password'] = $this->request->getPost('password');
@@ -28,6 +30,11 @@ class SessionController extends ControllerBase
             }else{
 
                 if($this->security->checkHash($credentials['password'], $user->password)){
+				
+					if($user->profilesId == 'telecheque')
+						$data['redirect'] = "http://telecheque.credline.cl/credline/login";
+					
+					
 				
 					$key = "miguelos52675267";
                     $data["msg"] = "Datos Correctos, redirigiendo...";
