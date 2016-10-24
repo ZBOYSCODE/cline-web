@@ -1150,12 +1150,12 @@ html, body{
 }
 
 .padding-quienes .app-qs-content-bottom{
-	padding-right: 0 !important;
+	padding-right: 30 !important;
 }
 
 .padding-quienes-ul{
 	padding-left: 47px;
-
+	padding-right: 17px;
 }
 .padding-quienes-bottom{
 	padding-left: 30px;
