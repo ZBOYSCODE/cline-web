@@ -1144,9 +1144,7 @@ html, body{
 }
 
 .padding-quienes{
-	padding-top: 25px;
-    padding-right: 0 !important;
-    margin-right: 0 !important;
+	padding: 25px;
 }
 
 .padding-quienes .app-qs-content-bottom{
