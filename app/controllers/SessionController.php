@@ -29,19 +29,21 @@ class SessionController extends ControllerBase
                 $data["estado"] = false;
             }else{
 
-                if($this->security->checkHash($credentials['password'], $user->password)){
+                if($
 				
-					if($user->profilesId == 'telecheque')
-						$data['redirect'] = "http://telecheque.credline.cl/credline/login";
-					
-					
-				
+				this->security->checkHash($credentials['password'], $user->password)){
 					$key = "miguelos52675267";
                     $data["msg"] = "Datos Correctos, redirigiendo...";
                     $data["estado"] = true;
 					$hash['id']=$user->id;
 					$hash['tk']=time();
                     $data["hash"] = urlencode($crypt->encryptBase64(json_encode($hash), $key));
+					
+					if($user->profilesId == 'telecheque'){
+						$data['redirect'] = "http://telecheque.credline.cl/credline/login";
+						$data["hash"] = time().'-'.$user->id;
+					}
+					
 					$this->session->set('credline-web', array(
 						'id'			=> $data["hash"]
 					));
