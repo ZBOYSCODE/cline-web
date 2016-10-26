@@ -13,10 +13,15 @@ class ControllerBase extends Controller
 		$this->identity = $this->session->get('credline-web');
 
 		if (is_array($this->identity)) {
-		
+			$redirect = 'http://app.credline.cl';
 			$user = UserBicorp::findFirstById($this->identity['id']);
 			$response = new \Phalcon\Http\Response();
-			$response->redirect('http://app.credline.cl');
+			if($user->profilesId == 'telecheque'){
+				$redirect = "http://telecheque.credline.cl";
+			}			
+			
+			
+			$response->redirect($redirect);
 			$response->send();
 		}		
     }
