@@ -21,6 +21,7 @@ class ControllerBase extends Controller
 			if($user->profilesId == 'telecheque'){
 				$redirect = "http://telecheque.credline.cl";
 			}
+			$crypt = new Crypt();
 			$key = "miguelos52675267";
 			$hash['id']=$user->id;
 			$hash['tk']=time();
