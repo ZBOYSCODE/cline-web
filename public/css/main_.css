@@ -1,13 +1,6 @@
 html, body{
 	width: 100%;
 	height: 100%;
-
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-font-family: 'Montserrat', sans-serif;
-
-
 }
 
 .app-logo{
@@ -17,6 +10,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .app-navbar{
+	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
 	border-radius: 0px; 
     background-color: #1b344b !important; 
     width: 100%;
@@ -155,7 +149,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .app-titulo-home-left{
-
+	font-family: "Angsana New", "Times New Roman", Georgia;
 	color: #f4df8c;
 	text-align: left;
 	margin-left: 30px;
@@ -165,7 +159,7 @@ font-family: 'Montserrat', sans-serif;
 
 
 .app-titulo-home-right{
-
+	font-family: "Angsana New", "Times New Roman", Georgia;
 	color: #f4df8c;
 	text-align: right;
 	margin-right: 20px;
@@ -174,6 +168,7 @@ font-family: 'Montserrat', sans-serif;
 	font-style: italic;
 }
 .app-bienes-center{
+	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
 	color: #f4df8c;
 	text-align: center;
 	margin-right: 20px;
@@ -182,7 +177,7 @@ font-family: 'Montserrat', sans-serif;
 	
 }
 .app-home-justify{
-
+	font-family: "Angsana New", "Times New Roman", Georgia;
 	text-align: justify;
 	color: #ffcc99;
 	font-size: 14px;
@@ -199,7 +194,7 @@ font-family: 'Montserrat', sans-serif;
 .app-diagnostico-bottom{
 	text-transform: uppercase;
 	padding-top: 10px;
-
+	font-family: "Angsana New", "Times New Roman", Georgia;
 	text-align: justify;
 	line-height: 22px;
 }
@@ -390,7 +385,7 @@ font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
 .app-subtitle-background{
-
+	font-family: "Angsana New", "Times New Roman", Georgia;
 	padding:7px !important;
     background-color: #999999;
     width: 100% !important;
@@ -452,7 +447,7 @@ font-family: 'Montserrat', sans-serif;
 	border-right: 2px solid #999;
 }
 .app-edu-border{
-
+	font-family: "Angsana New", "Times New Roman", Georgia;
 	border: 1px solid #ffcc99;
 	color: #ffcc99;
 	font-size: 24px;
@@ -576,7 +571,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .app-opor{
-	
+	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
 	margin-top: 30px;
 	background-color: #b32d00;
 	padding: 8px;
@@ -689,7 +684,7 @@ font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 }
 .app-qs-title{
-   
+   font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
    margin-top: 25px;
    background-color: #5d7291;
    padding: 5px;
@@ -701,7 +696,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .app-eva-title{
-   
+   font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
    margin-top: 30px;
    background-color: #5d7291;
    padding: 5px;
@@ -712,7 +707,7 @@ font-family: 'Montserrat', sans-serif;
    font-weight: bold;
 }
 .app-step-title{
-	
+	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
 	margin-top: 30px;
    background-color: #5d7291;
    padding: 8px;
@@ -724,7 +719,7 @@ font-family: 'Montserrat', sans-serif;
    text-align: left !important;
 }
 .app-realidad{
-   
+   font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
    margin-top: 30px;
    background-color: #b32d00;
    padding: 8px;
@@ -763,7 +758,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .pie-pagina-qs{
 	font-size: 0.7em;
-	
+	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
 }
 .app-subtitulo-qs{
 	color: #009933;
@@ -833,11 +828,12 @@ font-family: 'Montserrat', sans-serif;
 	color: #1b344b;
 }
 .app-modal .modal-header{
-	
+	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
 	font-weight: bold;
 	text-transform: uppercase;
 	background-color: #1b344b;
 	color: #f4df8c;
+	border-bottom: 5px solid #f4df8c;
 }
 
 .app-modal .modal-header button{
@@ -918,7 +914,7 @@ font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 }
 .app-pills li a{
-	
+	font-family: "Copperplate Gothic Light", "Times New Roman", Georgia;
 	border-radius: 0 !important;
 	color: #1b344b !important;
 }
@@ -1011,13 +1007,14 @@ font-family: 'Montserrat', sans-serif;
 	padding-top: 12px;
 	width: 100%;
 	height: 50px;
-	background-color: #1b344b;
+	background-color: #5d7291;
 	text-align: center;
 	color: white;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 10px;
 	bottom: 0;
 	position: fixed;
+	font-style: italic;
 }
 .app-footer a{
 	color: white;
@@ -1032,6 +1029,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .app-background-content{
+	border-bottom: 5px solid #f4df8c;
 	background-color: #1b344b;
 	padding-top:0 !important;
 }
@@ -1096,7 +1094,7 @@ font-family: 'Montserrat', sans-serif;
 
 .little-title{
 	font-weight: bolder;
-
+	font-family: "Angsana New", "Times New Roman", Georgia;
 
 }
 .little-title2{
@@ -1162,13 +1160,13 @@ font-family: 'Montserrat', sans-serif;
 
 }
 .universal-font{
-
+    font-family: "Angsana New", "Times New Roman", Georgia;
 	font-size: 1em;
 	padding-top: 5px;
 }
 
 .universal-font-bigger{
-
+    font-family: "Angsana New", "Times New Roman", Georgia !important;
 	font-size: 1em !important;
 }
 
@@ -1180,22 +1178,3 @@ font-family: 'Montserrat', sans-serif;
 
 
 
-/*nuevos estilos*/
-.app-nav > li > a {font-size: 13px;}
-#menu .app-nav-inicio, #menu .dropdown, #menu li:nth-child(2){display: none;}
-header {
-	background: #1b344b !important;
-	height: 50px;
-}
-.app-navbar {
-	margin: 0 auto;
-	width: 1170px;
-}
-.app-btn-registro {
-	background: #1b344b !important;
-}
-.app-step-title {
-	background: #1b344b !important;
-}
-.modal-footer .btn {font-weight: bold; background: #1b344b;}
-#btn-login-nav2 { background: #aaa !important; color: #fff;}
