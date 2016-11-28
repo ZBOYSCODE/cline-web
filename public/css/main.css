@@ -23,7 +23,7 @@ font-family: 'Montserrat', sans-serif;
     height:55px !important;
     padding-left:30px;
     padding-right:45px;
-    border-bottom: 5px solid #B89A0B;
+    /*border-bottom: 5px solid #B89A0B;*/
 }
 
 .app-nav>li{
