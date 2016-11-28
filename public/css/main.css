@@ -22,15 +22,15 @@ font-family: 'Montserrat', sans-serif;
     width: 100%;
     height:55px !important;
     padding-left:30px;
-   padding-right:45px;
-    border-bottom: 5px solid #f4df8c;
+    padding-right:45px;
+    border-bottom: 5px solid #B89A0B;
 }
 
 .app-nav>li{
 	height:50px !important;
 }
 .app-nav>li>a{
-    color:#f4df8c;
+    color:#B89A0B;
 	font-size: 9px;
 	height:50px !important;
 	font-weight: bold;
@@ -41,11 +41,11 @@ font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
 .app-nav .open>a, .app-nav .open>a:focus, .app-nav .open>a:hover{
-	background-color: #f4df8c;
+	background-color: #B89A0B;
 	color: #1b344b;
 }
 .app-nav .active>li, .app-nav .active>li:focus, .app-nav .active>li:hover{
-	background-color: #f4df8c;
+	background-color: #B89A0B;
 	color: #1b344b;
 }
 .app-nav >li >a >i{
@@ -73,12 +73,12 @@ font-family: 'Montserrat', sans-serif;
 	color: #1b344b;
 }
 .app-dropdown li > a:hover, .app-dropdown li > a:focus{
-	background-color: #f4df8c !important;
+	background-color: #B89A0B !important;
 	color: #1b344b !important;
 	background-image: none !important;
 }
 .app-nav>li>a:hover, .app-nav>li>a:focus {
-	background-color: #f4df8c;
+	background-color: #B89A0B;
 	color: #1b344b;
 	font-weight: bold;
 }
@@ -87,7 +87,7 @@ font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-size: 12px;
 	margin:0 auto;
-	border-bottom: 5px solid #f4df8c;
+	border-bottom: 5px solid #B89A0B;
 }
 
 .app-submenu-home p:hover{
@@ -156,7 +156,7 @@ font-family: 'Montserrat', sans-serif;
 
 .app-titulo-home-left{
 
-	color: #f4df8c;
+	color: #B89A0B;
 	text-align: left;
 	margin-left: 30px;
 	font-size: 2em;
@@ -166,7 +166,7 @@ font-family: 'Montserrat', sans-serif;
 
 .app-titulo-home-right{
 
-	color: #f4df8c;
+	color: #B89A0B;
 	text-align: right;
 	margin-right: 20px;
 	width: 80%;
@@ -174,7 +174,7 @@ font-family: 'Montserrat', sans-serif;
 	font-style: italic;
 }
 .app-bienes-center{
-	color: #f4df8c;
+	color: #B89A0B;
 	text-align: center;
 	margin-right: 20px;
 	width: 80%;
@@ -366,7 +366,7 @@ font-family: 'Montserrat', sans-serif;
 
 .app-edu-justify{
    text-align: left;
-   color: #f4df8c;
+   color: #B89A0B;
    font-size: 13px;
    padding-top: 50px;
    margin-left: 30px;
@@ -837,7 +837,7 @@ font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	background-color: #1b344b;
-	color: #f4df8c;
+	color: #B89A0B;
 }
 
 .app-modal .modal-header button{
@@ -1185,7 +1185,7 @@ font-family: 'Montserrat', sans-serif;
 #menu .app-nav-inicio, #menu .dropdown, #menu li:nth-child(2){display: none;}
 header {
 	background: #1b344b !important;
-	height: 50px;
+	height: 70px;
 }
 .app-navbar {
 	margin: 0 auto;
